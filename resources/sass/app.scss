@@ -1,0 +1,381 @@
+@import "node_modules/materialize-css/sass/materialize";
+$breakpoint-small:                              640px !default;  // Phone landscape
+$breakpoint-medium:                             960px !default;  // Tablet Landscape
+$breakpoint-large:                              1200px !default; // Desktop
+$breakpoint-xlarge:                             1600px !default; // Large Screens
+
+$breakpoint-xsmall-max:                         ($breakpoint-small - 1) !default;
+$breakpoint-small-max:                          ($breakpoint-medium - 1) !default;
+$breakpoint-medium-max:                         ($breakpoint-large - 1) !default;
+$breakpoint-large-max:                          ($breakpoint-xlarge - 1) !default;
+
+$global-margin:                                  20px !default;
+$global-small-margin:                            10px !default;
+$global-medium-margin:                           40px !default;
+$global-large-margin:                            70px !default;
+$global-xlarge-margin:                           140px !default;
+
+// Used in grid, column, container, align, card, padding
+$global-gutter:                                  30px !default;
+$global-small-gutter:                            15px !default;
+$global-medium-gutter:                           40px !default;
+$global-large-gutter:                            70px !default;
+// Name:            Margin
+// Description:     Utilities for margins
+//
+// Component:       `uk-margin-*`
+//                  `uk-margin-small-*`
+//                  `uk-margin-medium-*`
+//                  `uk-margin-large-*`
+//                  `uk-margin-xlarge-*`
+//                  `uk-margin-remove-*`
+//                  `uk-margin-auto-*`
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+$margin-margin:                                         $global-margin !default;
+
+$margin-small-margin:                                   $global-small-margin !default;
+
+$margin-medium-margin:                                  $global-medium-margin !default;
+
+$margin-large-margin:                                   $global-medium-margin !default;
+$margin-large-margin-l:                                 $global-large-margin !default;
+
+$margin-xlarge-margin:                                  $global-large-margin !default;
+$margin-xlarge-margin-l:                                $global-xlarge-margin !default;
+
+
+/* ========================================================================
+   Component: Margin
+   ========================================================================== */
+
+/*
+ * Default
+ */
+
+ .uk-margin { margin-bottom: $margin-margin; }
+ * + .uk-margin { margin-top: $margin-margin !important; }
+
+ .uk-margin-top { margin-top: $margin-margin !important; }
+ .uk-margin-bottom { margin-bottom: $margin-margin !important; }
+ .uk-margin-left { margin-left: $margin-margin !important; }
+ .uk-margin-right { margin-right: $margin-margin !important; }
+
+
+/* Small
+========================================================================== */
+
+.uk-margin-small { margin-bottom: $margin-small-margin; }
+* + .uk-margin-small { margin-top: $margin-small-margin !important; }
+
+.uk-margin-small-top { margin-top: $margin-small-margin !important; }
+.uk-margin-small-bottom { margin-bottom: $margin-small-margin !important; }
+.uk-margin-small-left { margin-left: $margin-small-margin !important; }
+.uk-margin-small-right { margin-right: $margin-small-margin !important; }
+
+
+/* Medium
+========================================================================== */
+
+.uk-margin-medium { margin-bottom: $margin-medium-margin; }
+* + .uk-margin-medium { margin-top: $margin-medium-margin !important; }
+
+.uk-margin-medium-top { margin-top: $margin-medium-margin !important; }
+.uk-margin-medium-bottom { margin-bottom: $margin-medium-margin !important; }
+.uk-margin-medium-left { margin-left: $margin-medium-margin !important; }
+.uk-margin-medium-right { margin-right: $margin-medium-margin !important; }
+
+
+/* Large
+========================================================================== */
+
+.uk-margin-large { margin-bottom: $margin-large-margin; }
+* + .uk-margin-large { margin-top: $margin-large-margin !important; }
+
+.uk-margin-large-top { margin-top: $margin-large-margin !important; }
+.uk-margin-large-bottom { margin-bottom: $margin-large-margin !important; }
+.uk-margin-large-left { margin-left: $margin-large-margin !important; }
+.uk-margin-large-right { margin-right: $margin-large-margin !important; }
+
+/* Desktop and bigger */
+@media (min-width: $breakpoint-large) {
+
+  .uk-margin-large { margin-bottom: $margin-large-margin-l; }
+  * + .uk-margin-large { margin-top: $margin-large-margin-l !important; }
+
+  .uk-margin-large-top { margin-top: $margin-large-margin-l !important; }
+  .uk-margin-large-bottom { margin-bottom: $margin-large-margin-l !important; }
+  .uk-margin-large-left { margin-left: $margin-large-margin-l !important; }
+  .uk-margin-large-right { margin-right: $margin-large-margin-l !important; }
+
+}
+
+
+/* XLarge
+========================================================================== */
+
+.uk-margin-xlarge { margin-bottom: $margin-xlarge-margin; }
+* + .uk-margin-xlarge { margin-top: $margin-xlarge-margin !important; }
+
+.uk-margin-xlarge-top { margin-top: $margin-xlarge-margin !important; }
+.uk-margin-xlarge-bottom { margin-bottom: $margin-xlarge-margin !important; }
+.uk-margin-xlarge-left { margin-left: $margin-xlarge-margin !important; }
+.uk-margin-xlarge-right { margin-right: $margin-xlarge-margin !important; }
+
+/* Desktop and bigger */
+@media (min-width: $breakpoint-large) {
+
+  .uk-margin-xlarge { margin-bottom: $margin-xlarge-margin-l; }
+  * + .uk-margin-xlarge { margin-top: $margin-xlarge-margin-l !important; }
+
+  .uk-margin-xlarge-top { margin-top: $margin-xlarge-margin-l !important; }
+  .uk-margin-xlarge-bottom { margin-bottom: $margin-xlarge-margin-l !important; }
+  .uk-margin-xlarge-left { margin-left: $margin-xlarge-margin-l !important; }
+  .uk-margin-xlarge-right { margin-right: $margin-xlarge-margin-l !important; }
+
+}
+
+
+/* Remove
+========================================================================== */
+
+.uk-margin-remove { margin: 0 !important; }
+.uk-margin-remove-top { margin-top: 0 !important; }
+.uk-margin-remove-bottom { margin-bottom: 0 !important; }
+.uk-margin-remove-left { margin-left: 0 !important; }
+.uk-margin-remove-right { margin-right: 0 !important; }
+
+.uk-margin-remove-vertical {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.uk-margin-remove-adjacent + * { margin-top: 0 !important; }
+
+
+/* Auto
+========================================================================== */
+
+.uk-margin-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.uk-margin-auto-top { margin-top: auto !important; }
+.uk-margin-auto-bottom { margin-bottom: auto !important; }
+.uk-margin-auto-left { margin-left: auto !important; }
+.uk-margin-auto-right { margin-right: auto !important; }
+
+.uk-margin-auto-vertical {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+
+// Hooks
+// ========================================================================
+
+// @if(mixin-exists(hook-margin-misc)) {@include hook-margin-misc();}
+
+// @mixin hook-margin-misc(){}
+// Name:            Padding
+// Description:     Utilities for padding
+//
+// Component:       `uk-padding`
+//                  `uk-padding-large`
+//                  `uk-padding-remove-*`
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+$padding-padding:                                        $global-gutter !important;
+$padding-padding-l:                                      $global-medium-gutter !important;
+
+$padding-small-padding:                                  $global-small-gutter !important;
+
+$padding-large-padding:                                  $global-gutter !important;
+$padding-large-padding-l:                                $global-large-gutter !important;
+
+
+/* ========================================================================
+   Component: Padding
+   ========================================================================== */
+
+   .uk-padding { padding: $padding-padding; }
+
+   /* Desktop and bigger */
+   @media (min-width: $breakpoint-large) {
+
+    .uk-padding { padding: $padding-padding-l; }
+
+  }
+
+
+/* Small
+========================================================================== */
+
+.uk-padding-small { padding: $padding-small-padding; }
+
+
+/* Large
+========================================================================== */
+
+.uk-padding-large { padding: $padding-large-padding; }
+
+/* Desktop and bigger */
+@media (min-width: $breakpoint-large) {
+
+  .uk-padding-large { padding: $padding-large-padding-l; }
+
+}
+
+
+/* Remove
+========================================================================== */
+
+.uk-padding-remove { padding: 0 !important; }
+.uk-padding-remove-top { padding-top: 0 !important; }
+.uk-padding-remove-bottom { padding-bottom: 0 !important; }
+.uk-padding-remove-left { padding-left: 0 !important; }
+.uk-padding-remove-right { padding-right: 0 !important; }
+
+.uk-padding-remove-vertical {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.uk-padding-remove-horizontal {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+$secondary: #20BF55;
+
+.container-fluid {
+	margin: 0 auto;
+	width: 70%;
+}
+
+
+@media only screen and (min-width: 601px) {
+	.container-fluid {
+		width: 70%;
+	}
+}
+
+@media only screen and (min-width: 993px) {
+	.container-fluid {
+		width: 90%;
+	}
+}
+.nav-container{
+	background-color: #00b0ff;
+	#nav{
+		box-shadow: unset;
+	}
+}
+.carousel{
+	height: 640px !important;
+}
+
+
+/* just for jsfiddle */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v18/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.middle-indicator{
+ position:absolute;
+ top:50%;
+}
+.middle-indicator-text{
+ font-size: 4.2rem;
+}
+a.middle-indicator-text{
+  color:white !important;
+}
+.content-indicator{
+  width: 64px;
+  height: 64px;
+  background: none;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px; 
+}
+.indicators{
+ visibility: hidden;
+}
+.cat-wrapper{
+	#cat{
+		padding: 0px 8px;
+	}
+}
+.offer{
+  height: 300px;
+}
+.package-meta{
+  margin-bottom: 10px;
+  #package-title{
+    font-weight: 700;
+  }
+}
+
+.review-star{
+  color: $secondary;
+}
+.featured-price{
+  position: absolute;
+  left: -5px;
+  bottom: 20px;
+  background: #FF5964;
+  color: white !important;
+  padding: 10px;
+  width: 40%;
+  span{
+    font-weight: 600;
+    font-size:18px; 
+  }
+}
+.unit{
+  padding-bottom: 15px;
+}
+.tofm-meta-wrapper{
+  .far,.fas{
+    font-size: 36px;
+  }
+  span{
+    font-weight: bold;
+    font-size: 18px;
+  }
+  p{
+    font-weight: 500;
+  }
+}
+
