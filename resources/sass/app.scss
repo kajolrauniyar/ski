@@ -1,4 +1,7 @@
 @import "node_modules/materialize-css/sass/materialize";
+$secondary-1: #ffa622;
+$secondary-2: #00B1B3;
+$secondary-3: #99a0aa;
 $breakpoint-small:                              640px !default;  // Phone landscape
 $breakpoint-medium:                             960px !default;  // Tablet Landscape
 $breakpoint-large:                              1200px !default; // Desktop
@@ -283,7 +286,8 @@ $secondary: #20BF55;
 	}
 }
 .carousel{
-	height: 640px !important;
+  height: 640px;
+	max-height: 640px !important;
 }
 
 
@@ -378,4 +382,206 @@ a.middle-indicator-text{
     font-weight: 500;
   }
 }
+#insta-wrapper{
+  .insta-row{
+    padding: 2px 15px 0px 15px;
+  }
+}
+.symbol{
+  .symbol-icon{
+    font-weight:bold;
+    font-size:70%;
+  }
+}
+.product{
+  .product-img-content{
+    padding:0px !important;
+  }
+}
 
+#social-wrapper
+{
+  .col{
+    i{
+      font-size:20px;
+    }
+    span{
+      font-size:20px;
+    }
+  }
+}
+
+
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #cc7a00;
+}
+#button:active {
+  background-color: #cc7a00;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+.footer-links, .footer-contact{
+  li{
+    padding: 5px 0px;
+    font-size:16px;
+    i{
+      font-size:20px;
+    }
+  }
+}
+.package-tab{  
+  .tab{
+    a{
+      color:#fff;
+    }
+  }
+}
+.contact-parallax{  
+  height: 640px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team-parallax{
+  height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#team-tab{
+  li{
+    a{
+      color: $secondary-3;;    
+      background-color: #F6F6F6;  
+      font-size: 18px;
+      font-weight: 400;
+      &.active{
+        background-color: $secondary-2;
+        color: white;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .content-wrapper {
+    margin-top: -6px;
+  }
+}
+/* Mega menu */
+
+#region{
+  a{      
+    font-weight: 700 !important;
+  }
+}
+
+
+body{
+  background-color: #f5f5f5;
+}
+.col {
+  .circle-text {
+    display: block;
+    margin: auto;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #FF9800 ;
+    color: #fff;
+    font: 18px "josefin sans", arial;
+    line-height: 120px;
+    i{
+      line-height:120px;
+    }
+  }
+  .active-step{
+    background-color:#2baeba;
+  }
+}
+.title-wrapper{
+  position: relative;
+  .step-title:after {
+    position: absolute;
+    width: 200px;
+    content: "";
+    border-top: 1px solid #f58220;
+    bottom: -15px;
+    left: 50%;
+    margin-left: -100px;
+  }
+}
+.intl-tel-input
+{
+  width: 92% !important;
+}
+#mobile-menu{
+  width: 60%;
+  li{
+    a{
+      padding: 0px 16px 0px 16px; 
+    }
+  }
+}
+.side-nav-dropdown{
+  a{
+    i{
+      float: right !important;
+    }
+  }
+}
+#dropdown-level-1{
+ li ul li a{
+  padding: 0px 32px 0px 32px; 
+}
+}
+ul #dropdown-level-3{
+  li a{
+    padding: 0px 48px 0px 48px !important; 
+  }
+}
+.featured-ski, .featured-adventure, .featured-sustain {
+  width: 80px; height: 80px;
+  margin: 0 auto;
+  background-image: url('/img/featured-icons.png');
+}
+.featured-ski{
+  background-position: -10px -10px;
+}
+.featured-adventure {
+  background-position: -10px -110px;
+}
+.featured-sustain {
+  background-position: -110px -10px;
+}

@@ -1,57 +1,42 @@
 @extends('layouts.frontend')
 @section('content')
-<div class="carousel carousel-slider">
-    <a class="carousel-item white-text" href="#one!"> 
-        <img src="https://source.unsplash.com/1600x640/?steak"></a>
+<div class="carousel carousel-slider center" data-indicators="true">
 
-        <div class="carousel-fixed-item center">
-           <h2 class="white-text">Heading for the Carousel</h2>
-           <p class="white-text">The caption/description for the caousel</p>
-
-       </div>
-
-
-       <a class="carousel-item white-text" href="#one!">
-        <img src="https://source.unsplash.com/1600x640/?pizza">
-        <h2>First Panel</h2>
-        <p class="white-text">This is your first panel</p>
-    </a>
-    <a class="carousel-item white-text" href="#one!">
-        <img src="https://source.unsplash.com/1600x640/?pasta">
-        <h2>First Panel</h2>
-        <p class="white-text">This is your first panel</p>
-    </a>
-    <a class="carousel-item white-text" href="#one!">
-        <img  src="https://source.unsplash.com/1600x640/?taco">
-        
-        <h2>First Panel</h2>
-        <p class="white-text">This is your first panel</p>
-
-    </a>
-</div> 
+    <div class="carousel-item">
+        <img src="https://source.unsplash.com/1024x512/?food" alt="">
+    </div>
+    <div class="carousel-item">
+        <img src="https://source.unsplash.com/1024x512/?cat" alt="">
+    </div>
+    <div class="carousel-item">
+        <img src="https://source.unsplash.com/1024x512/?corgi" alt="">
+    </div>
+    <div class="carousel-item">
+        <img src="https://source.unsplash.com/1024x512/?retriver" alt="">
+    </div>
+</div>
 <!-- heading start -->
 <div class="container-fluid">
     <h2 class="center-align">SPLASH RESPONSIBLE TRAVEL ALL OVER</h2>
-    <p class="center-align">Striving to be the Nepal's only most Eco-Friendly Ski Touring Experience !</p>
-    <hr>
+    <h5 class="center-align uk-margin-medium-bottom"><i>Striving to be the Nepal's only most Eco-Friendly Ski Touring Experience !</i></h5>
 </div>
 <!--heading end  -->
 <!-- content start -->
 <div class="container-fluid">
-    <div class="row">
+    <div class="row symbol">
       <div class="col s12 m4 l4 center-align feature-wrapper">
-        <i class="material-icons">add</i>
+        <div class="featured-sustain"></div>
         <h5 class="center-align">Sustainable Tourism</h5>
         <p class="center-align">We believe a small effort towards the betterment of community can contribute a lot to environment. As a responsible operator we strongly emphasis on cultural and economic sustainability.</p>
 
     </div>
     <div class="col s12 m4 l4 center-align feature-wrapper">
-      <i class="material-icons">add</i>
+      <div class="featured-adventure"></div>
       <h5 class="center-align">Sustainable Tourism</h5>
       <p class="center-align">We believe a small effort towards the betterment of community can contribute a lot to environment. As a responsible operator we strongly emphasis on cultural and economic sustainability.</p>
   </div>
   <div class="col s12 m4 l4 center-align feature-wrapper">
-      <i class="material-icons">add</i>
+      <div class="featured-ski"></div>
       <h5 class="center-align">Sustainable Tourism</h5>
       <p class="center-align">We believe a small effort towards the betterment of community can contribute a lot to environment. As a responsible operator we strongly emphasis on cultural and economic sustainability.</p>
   </div>
@@ -96,10 +81,10 @@
             </div>
         </div>
         <div class="col s12 m6 l6">
-            <h1 class="center-align uk-margin-remove-vertical">Heading</h1>
+            <h3 class="center-align uk-margin-remove-vertical">Heading</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis hic dolor repudiandae dicta doloremque autem esse eos, iste commodi eius totam, velit, sint illo adipisci quia non officia recusandae. Dolore laboriosam doloribus, nemo praesentium corporis, et sint omnis recusandae? At suscipit placeat, consequatur cumque odio vel. Molestias neque quod temporibus.</p>
             <div class="center-align">
-                <a class="waves-effect waves-light btn-large ">Dig More</a>            
+                <a class="waves-effect waves-light btn-large ">Read more..</a>            
             </div>
         </div>
     </div>
@@ -225,31 +210,36 @@
 </div>
 </section>
 {{-- trip of the month end --}}
-{{-- medias start --}}
-<div class="container-fluid">
-    <h4 class="center-align">Media Partners:</h4>
-    <div class="row">
-        @for($k=1; $k<=6;$k++)
-        <div class="col s2 m2 l2">
-            <img src="https://source.unsplash.com/190x100/?brand" alt="">
-        </div>
-        @endfor
-    </div>
-</div>
-{{-- medias end --}}
+
 {{-- youtube,instagram start--}}
 <section class="social">
     <div class="row">
-        <div class="col s12 m6 l6 uk-padding-remove-horizontal" id="youtube-wrapper">
-            <h3 class="center-align">Neal Ski Guide Stories</h3>
-            <img class="responsive-img" src="https://source.unsplash.com/800x600/?youtube" alt="">
-        </div>
         <div class="col s12 m6 l6 uk-padding-remove-horizontal" id="insta-wrapper">
             <h3 class="center-align">#nepalskiguide</h3>
+            @for($l=1; $l<=3; $l++)
+            <div class="row insta-row">
+                <div class="col sm12 m4 l4">
+                    <img class="responsive-img" src="https://source.unsplash.com/400x300/?youtube" alt="">  
+                </div>
+                <div class="col sm12 m4 l4">
+                   <img class="responsive-img" src="https://source.unsplash.com/400x300/?youtube" alt=""> 
+               </div>
+               <div class="col sm12 m4 l4">
+                   <img class="responsive-img" src="https://source.unsplash.com/400x300/?youtube" alt=""> 
+               </div>
+           </div>
+           @endfor
 
-        </div>
+       </div>
+       <div class="col s12 m6 l6 uk-padding-remove-horizontal" id="youtube-wrapper">
+        <h3 class="center-align">Nepal Ski Guide Stories</h3>
+        <img class="responsive-img" src="https://source.unsplash.com/800x600/?youtube" alt="">
+    </div>
 
-    </section>
-    {{-- youtube,instagram end--}}
-    @stop
+</section>
+{{-- youtube,instagram end--}}
+@include('frontend.partials._media')
+
+
+@stop
 

@@ -78,12 +78,40 @@ module.exports = __webpack_require__(2);
 (function ($) {
 	$(function () {
 
-		$('.sidenav').sidenav();
-		$('.carousel.carousel-slider').carousel({
-			fullWidth: true,
-			height: 640
+		$('.sidenav').sidenav({
+			menuWidth: 500
 		});
+		// $('.carousel.carousel-slider').carousel();
+		$('.carousel').carousel({ fullWidth: true });
 		$('.parallax').parallax();
+		// $('.parallax-contact').parallax();
+		var btn = $('#button');
+
+		$(window).scroll(function () {
+			if ($(window).scrollTop() > 300) {
+				btn.addClass('show');
+			} else {
+				btn.removeClass('show');
+			}
+		});
+
+		btn.on('click', function (e) {
+			e.preventDefault();
+			$('html, body').animate({ scrollTop: 0 }, '300');
+		});
+		$('.scrollspy').scrollSpy();
+		$('#team-tab').tabs();
+		$('.book-date').datepicker();
+		$('select').formSelect();
+		$('.datepicker').datepicker();
+		$('.dropdown-button').megaMenu({
+			inDuration: 300,
+			outDuration: 150,
+			hover: true
+		});
+		$('#dob').datepicker();
+		$('#exp').datepicker();
+		$('.collapsible').collapsible();
 	}); // end of document ready
 })(jQuery); // end of jQuery name space
 
