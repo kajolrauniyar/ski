@@ -112,6 +112,22 @@ module.exports = __webpack_require__(2);
 		$('.collapsible').collapsible();
 		$('.scrollspy').scrollSpy();
 		$('#product-tab').tabs();
+		$('.owl-carousel').owlCarousel({
+			loop: true,
+			margin: 10,
+			nav: false,
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 3
+				},
+				1000: {
+					items: 6
+				}
+			}
+		});
 	}); // end of document ready
 })(jQuery); // end of jQuery name space
 

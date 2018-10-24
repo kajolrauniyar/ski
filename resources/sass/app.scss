@@ -2,6 +2,8 @@
 $secondary-1: #ffa622;
 $secondary-2: #00B1B3;
 $secondary-3: #99a0aa;
+$button: #fcab10;
+$button-hover:#f8a403;
 $breakpoint-small:                              640px !default;  // Phone landscape
 $breakpoint-medium:                             960px !default;  // Tablet Landscape
 $breakpoint-large:                              1200px !default; // Desktop
@@ -597,3 +599,17 @@ ul #dropdown-level-3{
     }
   }
 }
+
+.book{
+    background-color:$button-hover;
+}
+
+.footer-contact{
+  
+        li{
+            a{
+                white-space: nowrap;
+                padding:20px;
+            }
+        }
+    }

@@ -47,7 +47,7 @@
 					</tbody>
 				</table>
 			</div>
-			<a class="waves-effect waves-light btn-large uk-margin-small">Book Now</a>
+			<a class="waves-effect waves-light btn-large uk-margin-small book">Book Now</a>
 		</div>
 		<div class="row uk-margin-remove-bottom" id="social-wrapper">
 			<div class="col s3 m3 l3 center ">
@@ -60,7 +60,7 @@
 			</div>
 			<div class="col s3 m3 l3 center ">
 				<i class="fab fa-google-plus-g"></i>
-				<span>+1</span>
+				
 			</div>
 			<div class="col s3 m3 l3 center ">
 				<i class="fab fa-pinterest-p"></i>
@@ -72,7 +72,7 @@
 </div>
 <!-- image end -->
 <!-- tab start -->
-<div class="container">
+<div class="">
 	<div class="row">
 		<div class="col s12">
 			<ul class="tabs tabs-fixed-width" id="product-tab">
@@ -86,20 +86,62 @@
 <!-- tab end -->
 <!-- product start  -->
 <div id="product1" class="col s12">
-	<div class="container uk-padding">
-		<h5 class="center-align">product 1</h5>
-				<p class="review-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboruLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru</p>
+	<div class="container-fluid uk-padding-small">
+		
+	  	<table  class="centered responsive-table">
+        	<thead>
+	          	<tr>
+	              	<th>Start Date</th>
+	              	<th>End Date</th>
+	              	<th>Price</th>
+	              	<th>Action</th>
+	          	</tr>
+		        </thead>
+
+        	<tbody>
+          		<tr>
+		            <td>1</td>
+		            <td>2</td>
+		            <td>3</td>
+		            <td>4</td>
+				</tr>
+          		<tr>
+		            <td>1</td>
+		            <td>2</td>
+		            <td>3</td>
+		            <td>4</td>
+				</tr>
+	         	<tr>
+		            <td>1</td>
+		            <td>2</td>
+		            <td>3</td>
+		            <td>4</td>
+				</tr>
+				<tr>
+		            <td>1</td>
+		            <td>2</td>
+		            <td>3</td>
+		            <td>4</td>
+				</tr>
+				<tr>
+		            <td>1</td>
+		            <td>2</td>
+		            <td>3</td>
+		            <td>4</td>
+				</tr>
+        </tbody>
+      </table>
 	</div>
 </div>
 <div id="product2" class="col s12">
-	<div class="container uk-padding">
-		<h5 class="center-align">product 2</h5>
+	<div class="container-fluid uk-padding-small">
+	
 				<p class="review-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboruLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru</p>
 	</div>
 </div>
 <div id="product3" class="col s12">
-	<div class="container uk-padding">
-		<h5 class="center-align">product 3</h5>
+	<div class="container-fluid uk-padding-small">
+		
 				<p class="review-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboruLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru</p>
 	</div>
 </div>

@@ -27,21 +27,21 @@
                <div class="col s12 m3 l3">
                 <h6 class="white-text">Contact Nepal Ski Guides</h6>
                 <ul class="footer-contact">
-                  <li><i class="fas fa-phone"></i><a class="grey-text text-lighten-3 uk-margin-left" href="#!">0144223344</a></li>
-                  <li><i class="fas fa-mobile-alt"></i><a class="grey-text text-lighten-3 uk-margin-left" href="#!">98511001122</a></li>
-                  <li><i class="fas fa-envelope"></i><a class="grey-text text-lighten-3 uk-margin-left" href="#!">info@nepalskiguides.com</a></li>
-                  <li><i class="fas fa-home"></i><a class="grey-text text-lighten-3 uk-margin-left" href="#!">Kathmandu,Baneshwor</a></li>
+                    <li><i class="fas fa-phone"></i><a class="grey-text text-lighten-3 " href="#!">0144223344</a></li>
+                    <li><i class="fas fa-mobile-alt"></i><a class="grey-text text-lighten-3 " href="#!"> 98511001122</a></li>
+                    <li><i class="fas fa-envelope-open"></i><a class="grey-text text-lighten-3 " href="#!">info@nepalskiguides.com</a></li>
+                    <li><i class="fas fa-home"></i><a class="grey-text text-lighten-3 " href="#!">Kathmandu,Baneshwor</a></li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="footer-copyright">
             <div class="container">
-            ©  Copyright 2018 Nepal Ski Guides
-            <a class="grey-text text-lighten-4 right uk-margin-right" href="#!"><i class="fab fa-facebook"></i></a>
-            <a class="grey-text text-lighten-4 right uk-margin-right" href="#!"><i class="fab fa-twitter"></i></a>
-            <a class="grey-text text-lighten-4 right uk-margin-right" href="#!"><i class="fab fa-instagram"></i></a>
            
+            <a class="grey-text text-lighten-4 left uk-margin-left" href="#!"><i class="fab fa-facebook"></i></a>
+            <a class="grey-text text-lighten-4 left uk-margin-left" href="#!"><i class="fab fa-twitter"></i></a>
+            <a class="grey-text text-lighten-4 left uk-margin-left" href="#!"><i class="fab fa-instagram"></i></a>
+            <a class="grey-text text-lighten-4 right uk-margin-right" href="#!">   ©  Copyright 2018 Nepal Ski Guides</a>
             </div>
           </div>
 
