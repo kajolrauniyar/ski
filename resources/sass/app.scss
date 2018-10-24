@@ -505,10 +505,6 @@ a.middle-indicator-text{
   }
 }
 
-
-body{
-  background-color: #f5f5f5;
-}
 .col {
   .circle-text {
     display: block;
@@ -584,4 +580,20 @@ ul #dropdown-level-3{
 }
 .featured-sustain {
   background-position: -110px -10px;
+}
+
+
+#product-tab{
+  li{
+    a{
+      color: $secondary-3;;    
+      background-color: #F6F6F6;  
+      font-size: 18px;
+      font-weight: 400;
+      &.active{
+        background-color: $secondary-2;
+        color: white;
+      }
+    }
+  }
 }

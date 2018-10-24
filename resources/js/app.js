@@ -4,10 +4,8 @@
 		$('.sidenav').sidenav({
 			menuWidth: 500,
 		});
-		// $('.carousel.carousel-slider').carousel();
 		$('.carousel').carousel({fullWidth: true});
 		$('.parallax').parallax();
-		// $('.parallax-contact').parallax();
 		var btn = $('#button');
 
 		$(window).scroll(function() {
@@ -35,6 +33,8 @@
 		$('#dob').datepicker();
 		$('#exp').datepicker();
 		$('.collapsible').collapsible();
+		$('.scrollspy').scrollSpy();
+		$('#product-tab').tabs();
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 

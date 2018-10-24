@@ -38,15 +38,9 @@
           <div class="footer-copyright">
             <div class="container">
             ©  Copyright 2018 Nepal Ski Guides
-            <a class="grey-text text-lighten-4 right uk-margin-right" href="#!">
-             <i class="fab fa-facebook-f"></i> 
-            </a>
-               <a class="grey-text text-lighten-4 right uk-margin-right" href="#!">
-             card
-            </a>
-               <a class="grey-text text-lighten-4 right uk-margin-right" href="#!">
-             card
-            </a>
+            <a class="grey-text text-lighten-4 right uk-margin-right" href="#!"><i class="fab fa-facebook"></i></a>
+            <a class="grey-text text-lighten-4 right uk-margin-right" href="#!"><i class="fab fa-twitter"></i></a>
+            <a class="grey-text text-lighten-4 right uk-margin-right" href="#!"><i class="fab fa-instagram"></i></a>
            
             </div>
           </div>
