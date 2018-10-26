@@ -287,11 +287,6 @@ $secondary: #20BF55;
 		box-shadow: unset;
 	}
 }
-.carousel{
-  height: 640px;
-	max-height: 640px !important;
-}
-
 
 /* just for jsfiddle */
 @font-face {
@@ -387,6 +382,7 @@ a.middle-indicator-text{
 #insta-wrapper{
   .insta-row{
     padding: 2px 15px 0px 15px;
+    margin-bottom:12px ;
   }
 }
 .symbol{
@@ -601,15 +597,25 @@ ul #dropdown-level-3{
 }
 
 .book{
-    background-color:$button-hover;
+  background-color:$button;
+
 }
 
 .footer-contact{
-  
-        li{
-            a{
-                white-space: nowrap;
-                padding:20px;
-            }
-        }
+
+  li{
+    a{
+      white-space: nowrap;
+      padding:20px;
     }
+  }
+}
+// carousel
+.carousel{
+  height: 550px;
+}
+@media only screen and (min-width: 1024px) {
+  .carousel {
+    max-height: 550px;
+  }
+}

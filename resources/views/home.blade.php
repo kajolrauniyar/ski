@@ -1,20 +1,12 @@
 @extends('layouts.frontend')
 @section('content')
-<div class="carousel carousel-slider center" data-indicators="true">
-
-    <div class="carousel-item">
-        <img src="https://source.unsplash.com/1024x512/?food" alt="">
-    </div>
-    <div class="carousel-item">
-        <img src="https://source.unsplash.com/1024x512/?cat" alt="">
-    </div>
-    <div class="carousel-item">
-        <img src="https://source.unsplash.com/1024x512/?corgi" alt="">
-    </div>
-    <div class="carousel-item">
-        <img src="https://source.unsplash.com/1024x512/?retriver" alt="">
-    </div>
+<div class="owl-carousel owl-theme home-slider">
+    <img class="item" src="https://source.unsplash.com/1024x512/?food" alt="">
+    <img class="item" src="https://source.unsplash.com/1024x512/?cat" alt="">
+    <img class="item" src="https://source.unsplash.com/1024x512/?corgi" alt="">
+    <img class="item" src="https://source.unsplash.com/1024x512/?retriver" alt="">
 </div>
+
 <!-- heading start -->
 <div class="container-fluid">
     <h2 class="center-align">SPLASH RESPONSIBLE TRAVEL ALL OVER</h2>
@@ -171,12 +163,12 @@
           <p class="flow-text uk-padding-large">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure dolores recusandae, vitae sapiente culpa aperiam veritatis impedit esse magni dolor.
           </p>
-          <div class="tofm-meta-wrapper uk-padding-large uk-margin-remove-vertical">
+          <div class="tofm-meta-wrapper uk-padding-large uk-margin-remove-vertical hide-on-small-only">
             <div class="col s4 m4 l4">
-                <div class="col s4 m4 l4">
+                <div class="col s6 m4 l4">
                     <i class="far fa-calendar-alt"></i>
                 </div>
-                <div class="col s8 m8 l8">
+                <div class="col s6 m8 l8">
                     <p class="uk-margin-remove-vertical dodger-blue-text darken-1">Duration</p>
                     <span>
                         16 Days
@@ -184,10 +176,10 @@
                 </div>
             </div>
             <div class="col s4 m4 l4">
-                <div class="col s4 m4 l4">
+                <div class="col s6 m4 l4">
                     <i class="fas fa-signal"></i>
                 </div>
-                <div class="col s8 m8 l8">
+                <div class="col s6 m8 l8">
                     <p class="uk-margin-remove-vertical dodger-blue-text darken-1">Trip Level</p>
                     <span>
                         Moderate
@@ -218,24 +210,24 @@
             <h3 class="center-align">#nepalskiguide</h3>
             @for($l=1; $l<=3; $l++)
             <div class="row insta-row">
-                <div class="col sm12 m4 l4">
+                <div class="col s4 m4 l4">
                     <img class="responsive-img" src="https://source.unsplash.com/400x300/?youtube" alt="">  
                 </div>
-                <div class="col sm12 m4 l4">
-                   <img class="responsive-img" src="https://source.unsplash.com/400x300/?youtube" alt=""> 
-               </div>
-               <div class="col sm12 m4 l4">
-                   <img class="responsive-img" src="https://source.unsplash.com/400x300/?youtube" alt=""> 
-               </div>
-           </div>
-           @endfor
+                <div class="col s4 m4 l4">
+                 <img class="responsive-img" src="https://source.unsplash.com/400x300/?youtube" alt=""> 
+             </div>
+             <div class="col s4 m4 l4">
+                 <img class="responsive-img" src="https://source.unsplash.com/400x300/?youtube" alt=""> 
+             </div>
+         </div>
+         @endfor
 
-       </div>
-       <div class="col s12 m6 l6 uk-padding-remove-horizontal" id="youtube-wrapper">
+     </div>
+     <div class="col s12 m6 l6 " id="youtube-wrapper">
         <h3 class="center-align">Nepal Ski Guide Stories</h3>
-        <img class="responsive-img" src="https://source.unsplash.com/800x600/?youtube" alt="">
+        <img class="responsive-img" src="https://source.unsplash.com/1100x825/?youtube" alt="">
     </div>
-
+</div>
 </section>
 {{-- youtube,instagram end--}}
 @include('frontend.partials._media')

@@ -82,6 +82,7 @@ module.exports = __webpack_require__(2);
 			menuWidth: 500
 		});
 		$('.carousel').carousel({ fullWidth: true });
+
 		$('.parallax').parallax();
 		var btn = $('#button');
 
@@ -112,7 +113,7 @@ module.exports = __webpack_require__(2);
 		$('.collapsible').collapsible();
 		$('.scrollspy').scrollSpy();
 		$('#product-tab').tabs();
-		$('.owl-carousel').owlCarousel({
+		$('.partners').owlCarousel({
 			loop: true,
 			margin: 10,
 			nav: false,
@@ -125,6 +126,22 @@ module.exports = __webpack_require__(2);
 				},
 				1000: {
 					items: 6
+				}
+			}
+		});
+		$('.home-slider').owlCarousel({
+			loop: true,
+			nav: false,
+			animateOut: 'fadeOut',
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 1
+				},
+				1000: {
+					items: 1
 				}
 			}
 		});

@@ -41,7 +41,7 @@
 					</div>
 
 					<div class="form-field">
-						<button class="btn-small waves-effect scooter" >Contact</button>
+						<button class="btn-small waves-effect book" >Contact</button>
 					</div>
 				</form>
 			</div>

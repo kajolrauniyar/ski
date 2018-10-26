@@ -5,6 +5,7 @@
 			menuWidth: 500,
 		});
 		$('.carousel').carousel({fullWidth: true});
+
 		$('.parallax').parallax();
 		var btn = $('#button');
 
@@ -35,7 +36,7 @@
 		$('.collapsible').collapsible();
 		$('.scrollspy').scrollSpy();
 		$('#product-tab').tabs();
-		$('.owl-carousel').owlCarousel({
+		$('.partners').owlCarousel({
 			loop:true,
 			margin:10,
 			nav:false,
@@ -50,7 +51,23 @@
 					items:6
 				}
 			}
-		})	 
+		});
+		$('.home-slider').owlCarousel({
+			loop:true,
+			nav:false,
+			animateOut: 'fadeOut',
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1000:{
+					items:1
+				}
+			}
+		})			
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
