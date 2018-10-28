@@ -10267,3 +10267,34 @@ ul #dropdown-level-3 li a {
   }
 }
 
+.right-align {
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+
+.team-parallax {
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  bottom: 120px;
+  left: 20px;
+}
+
+.team-parallax {
+  position: relative;
+}
+
+.paragraph {
+  position: absolute;
+  bottom: 60px;
+  left: 20px;
+}
+
+.team-parallax {
+  position: relative;
+}
+

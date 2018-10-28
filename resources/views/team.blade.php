@@ -2,7 +2,16 @@
 @section('content')
 <!--image start  -->
 <div class="team-parallax" style="background-image: url('https://source.unsplash.com/1200x640/?mail');">
+	<h2 class="left-align uk-margin-remove title">title</h2>
+	<p class="left-align paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, ipsa vero reprehenderit.</p>
+  	<div class="col s12 right-align">
+	    <a href="#!" class="breadcrumb">First</a>
+	    <a href="#!" class="breadcrumb">Second</a>
+	    <a href="#!" class="breadcrumb">Third</a>
+  	</div>
+ 
 </div>
+
 <!-- image end -->
 <!-- content start -->
 <div class="container">

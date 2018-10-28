@@ -620,3 +620,32 @@ ul #dropdown-level-3{
     max-height: 550px;
   }
 }
+//team-parallax(breadcrumbs)
+.right-align  {
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+.team-parallax{
+   position:relative;
+}
+//team-parallax(heading)
+.title  {
+ 
+ position: absolute;
+  bottom: 120px;
+  left: 20px;
+}
+.team-parallax{
+  position:relative;
+}
+//team-parallax(paragraph)
+.paragraph  {
+ position: absolute;
+  bottom: 60px;
+  left: 20px;
+}
+.team-parallax{
+  position:relative;
+}
