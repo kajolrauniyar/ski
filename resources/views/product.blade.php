@@ -134,18 +134,120 @@
 	</div>
 </div>
 <div id="product2" class="col s12">
-	<div class="container-fluid uk-padding-small">
-	
-				<p class="review-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboruLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru</p>
+	<div class="container-fluid uk-padding-small">	
+    	<div class="row">
+  			<div class="col s6">
+  				<ul class="">
+  					<h5 class="uk-margin-remove-top uk-padding-remove-horizontal">Itinerary</h5>
+	                <li class="">
+	                    <span class="new badge left" data-badge-caption="1:" >Day</span>
+	                    <span class="itinerary-title uk-margin-left">Drive to Pokhara (820m/2,690ft)</span>
+	                </li>
+	                 <li class="uk-margin-top">
+	                    <span class="new badge left" data-badge-caption="2:" >Day</span>
+	                    <span class="itinerary-title uk-margin-left">Drive to Pokhara (820m/2,690ft)</span>
+	                </li>
+	                 <li class="uk-margin-top">
+	                    <span class="new badge left" data-badge-caption="3:" >Day</span>
+	                    <span class="itinerary-title uk-margin-left">Drive to Pokhara (820m/2,690ft)</span>
+	                </li>
+	                 <li class="uk-margin-top">
+	                    <span class="new badge left" data-badge-caption="4:" >Day</span>
+	                    <span class="itinerary-title uk-margin-left">Drive to Pokhara (820m/2,690ft)</span>
+	                </li>
+	                 <li class="uk-margin-top">
+	                    <span class="new badge left" data-badge-caption="5:" >Day</span>
+	                    <span class="itinerary-title uk-margin-left">Drive to Pokhara (820m/2,690ft)</span>
+	                </li>
+	                 <li class="uk-margin-top">
+	                    <span class="new badge left" data-badge-caption="6:" >Day</span>
+	                    <span class="itinerary-title uk-margin-left">Drive to Pokhara (820m/2,690ft)</span>
+	                </li> 
+	                <li class="uk-margin-top">
+	                    <span class="new badge left" data-badge-caption="7:" >Day</span>
+	                    <span class="itinerary-title uk-margin-left">Drive to Pokhara (820m/2,690ft)</span>
+	                </li>
+				</ul>
+  			</div>
+      		<div class="col s6">
+      			<div class="row">
+      				<div class="col s12">
+				        <ul class="collection with-header">
+					        <li class="collection-header"><h6>Included</h6></li>
+					        <li class="collection-item"><div>item1<i class="material-icons left green-text">check</i></div></li>
+					        <li class="collection-item"><div>item1<i class="material-icons left green-text">check</i></div></li>
+					        <li class="collection-item"><div>item1<i class="material-icons left green-text">check</i></div></li>
+					        <li class="collection-item"><div>item1<i class="material-icons left green-text">check</i></div></li>
+					        <li class="collection-item"><div>item1<i class="material-icons left green-text">check</i></div></li>
+				      	</ul>
+				    </div>
+				    <div class="col s12">
+				        <ul class="collection with-header">
+					        <li class="collection-header"><h6>Excluded</h6></li>
+					        <li class="collection-item"><div>item1<i class="material-icons left red-text">close</i></div></li>
+					        <li class="collection-item"><div>item1<i class="material-icons left  red-text">close</i></div></li>
+					        <li class="collection-item"><div>item1<i class="material-icons left red-text">close</i></div></li>
+					        <li class="collection-item"><div>item1<i class="material-icons left red-text">close</i></div></li>
+					        <li class="collection-item"><div>item1<i class="material-icons left red-text">close</i></div></li>
+				      	</ul>
+				    </div>
+		      	</div>
+		           
+      		</div>
+    	</div>
 	</div>
 </div>
 <div id="product3" class="col s12">
 	<div class="container-fluid uk-padding-small">
-		
-				<p class="review-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboruLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru</p>
+		<div class="card">
+			<div class="card-title">
+				<div class="row">
+					<div class="col s6">
+						<p class="uk-margin-left">Please Check Available Dates for The Year of:</p>
+						
+					</div>
+					<div class="col s6">
+						<div class="row">
+							<div class="col s4">
+						  		<a class='year-dropdown-trigger btn uk-margin-top' href='#' data-target='dropdownyear'>Year</a>
+								  	<ul id='dropdownyear' class='dropdown-content'>
+									    <li><a href="#!">2018</a></li>
+									    <li><a href="#!">2017</a></li>
+									    <li><a href="#!">2016</a></li>
+									    <li><a href="#!">2015</a></li>
+									    <li><a href="#!">2014</a></li>
+								  	</ul>
+							</div>
+							<div class="col s4">
+								<a class='month-dropdown-trigger btn uk-margin-top' href='#' data-target='dropdownmonth'>Month</a>
+								  	<ul id='dropdownmonth' class='dropdown-content'>
+								     	<li><a href="#!">Jan</a></li>
+									    <li><a href="#!">Feb</a></li>
+									    <li><a href="#!">March</a></li>
+									    <li><a href="#!">April</a></li>
+									    <li><a href="#!">May</a></li>
+									    <li><a href="#!">June</a></li>
+									    <li><a href="#!">July</a></li>
+									    <li><a href="#!">August</a></li>
+									    <li><a href="#!">September</a></li>
+									    <li><a href="#!">October</a></li>
+									    <li><a href="#!">November</a></li>
+									    <li><a href="#!">December</a></li>
+								  	</ul>
+							</div>
+							<div class="col s4">
+							  	<a class="waves-effect waves-light btn center uk-margin-top uk-margin-left">search</a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	
 	</div>
 </div>
-<!-- product ebd -->
+<!-- product end -->
 
 
 @stop

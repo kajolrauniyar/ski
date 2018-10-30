@@ -145,6 +145,8 @@ module.exports = __webpack_require__(2);
 				}
 			}
 		});
+		$('.year-dropdown-trigger').dropdown();
+		$('.month-dropdown-trigger').dropdown();
 	}); // end of document ready
 })(jQuery); // end of jQuery name space
 
