@@ -10309,3 +10309,19 @@ ul #dropdown-level-3 li a {
   position: relative;
 }
 
+#product3 .year-dropdown-trigger,
+#product3 .month-dropdown-trigger {
+  padding-top: 20px;
+}
+
+#product3 .search {
+  color: white;
+  background-color: #ffa622;
+}
+
+#product4 .review-readmore,
+#product4 .formsubmit,
+#product4 .imageselection {
+  background-color: #ffa622;
+}
+

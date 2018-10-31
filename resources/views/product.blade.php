@@ -232,7 +232,7 @@
 					<div class="col s6">
 						<div class="row">
 							<div class="col s4">
-								<a class='year-dropdown-trigger btn uk-margin-top' href='#' data-target='dropdownyear'>Year</a>
+								<div class='year-dropdown-trigger' data-target='dropdownyear'>Year</div>
 								<ul id='dropdownyear' class='dropdown-content'>
 									<li><a href="#!">2018</a></li>
 									<li><a href="#!">2017</a></li>
@@ -242,7 +242,7 @@
 								</ul>
 							</div>
 							<div class="col s4">
-								<a class='month-dropdown-trigger btn uk-margin-top' href='#' data-target='dropdownmonth'>Month</a>
+								<div class='month-dropdown-trigger'  data-target='dropdownmonth'>Month</div>
 								<ul id='dropdownmonth' class='dropdown-content'>
 									<li><a href="#!">Jan</a></li>
 									<li><a href="#!">Feb</a></li>
@@ -259,7 +259,7 @@
 								</ul>
 							</div>
 							<div class="col s4">
-								<a class="waves-effect waves-light btn center uk-margin-top uk-margin-left">search</a>
+								<a class="waves-effect waves-light btn center uk-margin-top uk-margin-left search">search</a>
 							</div>
 						</div>
 						
@@ -297,7 +297,7 @@
                 </div>
                 @endfor
 
-				<a class="waves-effect waves-light btn">Read More</a>
+				<a class="waves-effect waves-light btn review-readmore">Read More</a>
 			</div>
 			<div class="col s6">
 				<div class="collection">
@@ -337,9 +337,9 @@
 	      				</div>
 				     	<div class="row uk-margin-left uk-margin-right uk-padding-small uk-padding-remove-vertical uk-padding-remove-top">
 				     	    <div class="file-field input-field col s12 uk-margin-remove-top uk-padding-remove-vertical">
-	      						<div class="btn">
+	      						<div class="btn imageselection">
 	        						<span>Image Upload</span>
-	        						<input type="file" name="image"  accept="image/*" multiple>
+	        						<input type="file" name="image"  accept="image/*">
 	      						</div>
 	      						<div class="file-path-wrapper">
 	        					<input class="file-path validate" type="text" placeholder="Upload one or more files">
@@ -362,7 +362,7 @@
 	        			
 	        			<div class="row uk-margin-left uk-margin-right uk-padding-small uk-padding-remove-vertical uk-padding-remove-top">
 	        				<div class="input-field col s12 uk-margin-remove-top uk-padding-remove-vertical">	
-	  						<button class="btn waves-effect waves-light" type="submit" name="action">Submit</button>
+	  						<button class="btn waves-effect waves-light formsubmit" type="submit" name="action">Submit</button>
 	        				</div>
 	        			</div>
 	    			 
