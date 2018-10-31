@@ -219,6 +219,7 @@
 		</div>
 	</div>
 </div>
+{{-- search form start --}}
 <div id="product3" class="col s12">
 	<div class="container-fluid uk-padding-small">
 		<div class="card">
@@ -269,6 +270,8 @@
 
 	</div>
 </div>
+{{-- search form end --}}
+{{-- review start --}}
 <div id="product4" class="col s12">
 	<div class="container-fluid">
 		<div class="row">
@@ -369,7 +372,7 @@
 		</div>
 	</div>
 </div>
-<!-- product end -->
+<!-- review end -->
 
 
 @stop
