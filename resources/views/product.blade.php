@@ -76,17 +76,18 @@
 	<div class="row">
 		<div class="col s12">
 			<ul class="tabs tabs-fixed-width" id="product-tab">
-				<li class="tab col s3"><a href="#product1" class="active"> product 1</a></li>
-				<li class="tab col s3"><a href="#product2">product 2</a></li>
-				<li class="tab col s3 "><a href="#product3">product 3</a></li>
-				<li class="tab col s3 "><a href="#product4">product 4</a></li>
+				<li class="tab col s3"><a href="#overview" class="active"> Overview</a></li>
+				<li class="tab col s3"><a href="#itinerary">Itinerary</a></li>
+				<li class="tab col s3 "><a href="#search">Search</a></li>
+				<li class="tab col s3 "><a href="#review">Review</a></li>
+				<li class="tab col s3 "><a href="#Availablity">Availablity</a></li>
 			</ul>
 		</div>
 	</div>
 </div>
 <!-- tab end -->
 <!-- product start  -->
-<div id="product1" class="col s12">
+<div id="overview" class="col s12">
 	<div class="container-fluid uk-padding-small">
 		
 		<table  class="centered responsive-table">
@@ -134,7 +135,7 @@
 		</table>
 	</div>
 </div>
-<div id="product2" class="col s12">
+<div id="itinerary" class="col s12">
 	<div class="container-fluid uk-padding-small">	
 		<div class="row">
 			<div class="col s6">
@@ -220,7 +221,7 @@
 	</div>
 </div>
 {{-- search form start --}}
-<div id="product3" class="col s12">
+<div id="search" class="col s12">
 	<div class="container-fluid uk-padding-small">
 		<div class="card">
 			<div class="card-title">
@@ -272,7 +273,7 @@
 </div>
 {{-- search form end --}}
 {{-- review start --}}
-<div id="product4" class="col s12">
+<div id="review" class="col s12">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col s6">
@@ -282,7 +283,7 @@
                         <img src="https://via.placeholder.com/150x150" alt="" class="circle responsive-img">
                     </div>
                     <div class="col s9 m9 l9">
-                        <h4 class="review-title">Trip Name</h4>
+                        <h6 class="review-title">Trip Name</h6>
                         <p class="uk-margin-remove-top"client">CLient name</p>
                         <span class="rating">
                             <i class="material-icons yellow-text">star</i>
@@ -373,6 +374,7 @@
 	</div>
 </div>
 <!-- review end -->
+@include('frontend.partials._table');
 
 
 @stop

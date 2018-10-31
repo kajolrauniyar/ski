@@ -156,7 +156,7 @@ module.exports = __webpack_require__(2);
 /* 2 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: \r\nundefined\r\n  ^\r\n      Invalid CSS after \"  }\": expected \"}\", was \"\"\r\n      in C:\\projects\\ski-new\\resources\\sass\\app.scss (line 682, column 4)\n    at runLoaders (C:\\projects\\ski-new\\node_modules\\webpack\\lib\\NormalModule.js:195:19)\n    at C:\\projects\\ski-new\\node_modules\\loader-runner\\lib\\LoaderRunner.js:364:11\n    at C:\\projects\\ski-new\\node_modules\\loader-runner\\lib\\LoaderRunner.js:230:18\n    at context.callback (C:\\projects\\ski-new\\node_modules\\loader-runner\\lib\\LoaderRunner.js:111:13)\n    at Object.asyncSassJobQueue.push [as callback] (C:\\projects\\ski-new\\node_modules\\sass-loader\\lib\\loader.js:55:13)\n    at Object.done [as callback] (C:\\projects\\ski-new\\node_modules\\neo-async\\async.js:7974:18)\n    at options.error (C:\\projects\\ski-new\\node_modules\\node-sass\\lib\\index.js:294:32)");
 
 /***/ })
 /******/ ]);

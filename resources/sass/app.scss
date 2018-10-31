@@ -664,21 +664,20 @@ ul #dropdown-level-3{
   }
  
 }
-//product3 dropdown year
-#product3{
+//search dropdown year
+#search{
   .year-dropdown-trigger, .month-dropdown-trigger{
     padding-top:20px;
   }
 }
-#product3{
+#search{
   .search{
     color:white;
     background-color: $secondary-1;
   }
 }
-#product4{
+#review{
   .review-readmore,.formsubmit, .imageselection{
     background-color:$secondary-1;
   }
   
-}
