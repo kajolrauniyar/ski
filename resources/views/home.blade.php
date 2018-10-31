@@ -212,14 +212,18 @@
             <h3 class="center-align">#nepalskiguide</h3>
             @for($l=1; $l<=3; $l++)
             <div class="row insta-row">
-                <div class="col s4 m4 l4">
-                    <img class="responsive-img" src="https://source.unsplash.com/400x300/?youtube" alt="">  
+                <div class="col s4 m4 l4 insta-col">
+                    <img class="responsive-img" src="https://source.unsplash.com/400x300/?youtube" alt="">
+                   <h6 class="valign-wrapper uk-margin-remove socialtitle">title</h6>
+                  
                 </div>
-                <div class="col s4 m4 l4">
-                 <img class="responsive-img" src="https://source.unsplash.com/400x300/?youtube" alt=""> 
+                <div class="col s4 m4 l4 insta-col">
+                 <img class="responsive-img" src="https://source.unsplash.com/400x300/?youtube" alt="">
+                 <h6 class="valign-wrapper uk-margin-remove socialtitle">title</h6> 
              </div>
-             <div class="col s4 m4 l4">
-                 <img class="responsive-img" src="https://source.unsplash.com/400x300/?youtube" alt=""> 
+             <div class="col s4 m4 l4 insta-col">
+                 <img class="responsive-img" src="https://source.unsplash.com/400x300/?youtube " alt=""> 
+                 <h6 class="valign-wrapper uk-margin-remove socialtitle">title</h6>
              </div>
          </div>
          @endfor

@@ -79,6 +79,7 @@
 				<li class="tab col s3"><a href="#product1" class="active"> product 1</a></li>
 				<li class="tab col s3"><a href="#product2">product 2</a></li>
 				<li class="tab col s3 "><a href="#product3">product 3</a></li>
+				<li class="tab col s3 "><a href="#product4">product 4</a></li>
 			</ul>
 		</div>
 	</div>
@@ -140,31 +141,31 @@
 				<ul class="">
 					<h5 class="uk-margin-remove-top uk-padding-remove-horizontal">Itinerary</h5>
 					<li class="">
-						<span class="new badge left" data-badge-caption="1:" >Day</span>
+						<span class="new badge left uk-padding-small  center uk-padding-remove-vertical" data-badge-caption="1:" >Day</span>
 						<span class="itinerary-title uk-margin-left">Drive to Pokhara (820m/2,690ft)</span>
 					</li>
 					<li class="uk-margin-top">
-						<span class="new badge left uk-padding-small uk-padding-remove-vertical" data-badge-caption="2:">Day</span>
+						<span class="new badge left uk-padding-small  center uk-padding-remove-vertical" data-badge-caption="2:">Day</span>
 						<span class="itinerary-title uk-margin-left">Drive to Pokhara (820m/2,690ft)</span>
 					</li>
 					<li class="uk-margin-top">
-						<span class="new badge left" data-badge-caption="3:" >Day</span>
+						<span class="new badge left uk-padding-small  center uk-padding-remove-vertical" data-badge-caption="3:" >Day</span>
 						<span class="itinerary-title uk-margin-left">Drive to Pokhara (820m/2,690ft)</span>
 					</li>
 					<li class="uk-margin-top">
-						<span class="new badge left" data-badge-caption="4:" >Day</span>
+						<span class="new badge left uk-padding-small  center uk-padding-remove-vertical" data-badge-caption="4:" >Day</span>
 						<span class="itinerary-title uk-margin-left">Drive to Pokhara (820m/2,690ft)</span>
 					</li>
 					<li class="uk-margin-top">
-						<span class="new badge left" data-badge-caption="5:" >Day</span>
+						<span class="new badge left uk-padding-small  center uk-padding-remove-vertical" data-badge-caption="5:" >Day</span>
 						<span class="itinerary-title uk-margin-left">Drive to Pokhara (820m/2,690ft)</span>
 					</li>
 					<li class="uk-margin-top">
-						<span class="new badge left" data-badge-caption="6:" >Day</span>
+						<span class="new badge left uk-padding-small  center uk-padding-remove-vertical" data-badge-caption="6:" >Day</span>
 						<span class="itinerary-title uk-margin-left">Drive to Pokhara (820m/2,690ft)</span>
 					</li> 
 					<li class="uk-margin-top">
-						<span class="new badge left" data-badge-caption="7:" >Day</span>
+						<span class="new badge left uk-padding-small  center uk-padding-remove-vertical" data-badge-caption="7:" >Day</span>
 						<span class="itinerary-title uk-margin-left">Drive to Pokhara (820m/2,690ft)</span>
 					</li>
 				</ul>
@@ -266,6 +267,106 @@
 			</div>
 		</div>
 
+	</div>
+</div>
+<div id="product4" class="col s12">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col s6">
+				@for($a=1; $a<=3; $a++)
+                <div class="row">
+                    <div class="col s3 m3 l3">
+                        <img src="https://via.placeholder.com/150x150" alt="" class="circle responsive-img">
+                    </div>
+                    <div class="col s9 m9 l9">
+                        <h4 class="review-title">Trip Name</h4>
+                        <p class="uk-margin-remove-top"client">CLient name</p>
+                        <span class="rating">
+                            <i class="material-icons yellow-text">star</i>
+                            <i class="material-icons yellow-text">star</i>
+                            <i class="material-icons yellow-text">star</i>
+                            <i class="material-icons yellow-text">star</i>
+                            <i class="material-icons yellow-text">star</i>
+                        </span>
+                        <p class="review-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                </div>
+                @endfor
+
+				<a class="waves-effect waves-light btn">Read More</a>
+			</div>
+			<div class="col s6">
+				<div class="collection">
+					<form action="">
+						<div class="row uk-margin-left uk-padding-small uk-padding-remove-vertical">
+							<div class="input-field col s12 uk-margin-remove-top uk-padding-remove-vertical  uk-margin-small uk-margin-bottom">
+	          					<input id="hidden" type="hidden" class="validate">
+	          					<label for="hidden">LEAVE A REVIEW</label>
+	        				</div>
+	      				</div>
+					  	<div class="row uk-margin-left uk-margin-right uk-padding-small uk-padding-remove-vertical">
+	    					<div class="input-field col s6 uk-margin-remove-top uk-padding-remove-vertical">
+	      						<input  id="first_name" type="text" class="validate">
+	      						<label for="first_name">First Name</label>
+	    					</div>
+				  			<div class="input-field col s6 uk-margin-remove-top uk-padding-remove-vertical">
+  								<input id="last_name" type="text" class="validate">
+  								<label for="last_name">Last Name</label>
+							</div>
+	  					</div>
+					 	<div class="row uk-margin-left uk-margin-right uk-margin-right uk-padding-small uk-padding-remove-vertical">
+							<div class="input-field col s12 uk-margin-remove-top uk-padding-remove-vertical">
+	          					<input id="email" type="email" class="validate">
+	          					<label for="email">Email</label>
+	        				</div>
+	      				</div>
+	      				<div class="row uk-margin-left uk-margin-right uk-margin-right uk-padding-small uk-padding-remove-vertical uk-padding-remove-top">
+						  	<div class="input-field col s12 uk-margin-remove-top uk-padding-remove-vertical">
+							    <select>
+							      <option value="" disabled selected>Country</option>
+							      <option value="1">Nepal</option>
+							      <option value="2">China</option>
+							      <option value="3">Malta</option>
+							    </select>
+							    <label>Country</label>
+						  	</div>
+	      				</div>
+				     	<div class="row uk-margin-left uk-margin-right uk-padding-small uk-padding-remove-vertical uk-padding-remove-top">
+				     	    <div class="file-field input-field col s12 uk-margin-remove-top uk-padding-remove-vertical">
+	      						<div class="btn">
+	        						<span>Image Upload</span>
+	        						<input type="file" name="image"  accept="image/*" multiple>
+	      						</div>
+	      						<div class="file-path-wrapper">
+	        					<input class="file-path validate" type="text" placeholder="Upload one or more files">
+	      						</div>
+	    					</div>
+	    				</div>
+				     	<div class="row uk-margin-left uk-margin-right uk-padding-small uk-padding-remove-vertical uk-padding-remove-top">
+							<div class="input-field col s12 uk-margin-remove-top uk-padding-remove-vertical">
+	          					<input id="text" type="text" class="validate" >
+	          					<label for="text">Title</label>
+	        				</div>
+	      				</div>
+
+      				 	<div class="row uk-margin-left uk-margin-right uk-padding-small uk-padding-remove-vertical uk-padding-remove-top">
+        				  	<div class="input-field col s12 uk-margin-remove-top uk-padding-remove-vertical">
+          						<textarea id="product-review-textarea" class="materialize-textarea"></textarea>
+          						<label for="textarea">Textarea</label>
+    						</div>
+        				</div>
+	        			
+	        			<div class="row uk-margin-left uk-margin-right uk-padding-small uk-padding-remove-vertical uk-padding-remove-top">
+	        				<div class="input-field col s12 uk-margin-remove-top uk-padding-remove-vertical">	
+	  						<button class="btn waves-effect waves-light" type="submit" name="action">Submit</button>
+	        				</div>
+	        			</div>
+	    			 
+					</form>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 <!-- product end -->
