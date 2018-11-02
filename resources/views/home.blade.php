@@ -35,47 +35,24 @@
 
 </div>
 </div>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col s12 m6 l6">  
+<div class="container-fluid cat">
+    <div class="row ">
+        <div class="col s12 m6 l6"> 
+            @for($a=1; $a<=3; $a++)
             <div class="row cat-wrapper">
-                <div class="col s4 m4 l4" id="cat">
+                @for($b=1; $b<=3; $b++)
+                <div class="col s4 m4 l4 cat-col" id="cat">
                     <img src="https://source.unsplash.com/400x300/?food" alt="" class="responsive-img">
+                      <h6 class="valign-wrapper uk-margin-remove cat-title">title</h6>
                 </div>
-                <div class="col s4 m4 l4" id="cat">
-                    <img src="https://source.unsplash.com/400x300/?space" alt="" class="responsive-img">
-                </div>
-                <div class="col s4 m4 l4" id="cat">
-                    <img src="https://source.unsplash.com/400x300/?flower" alt="" class="responsive-img">
-                </div>
+                @endfor
             </div>
-            <div class="row cat-wrapper">
-                <div class="col s4 m4 l4" id="cat">
-                    <img src="https://source.unsplash.com/400x300/?phone" alt="" class="responsive-img">
-                </div>
-                <div class="col s4 m4 l4" id="cat">
-                    <img src="https://source.unsplash.com/400x300/?camera" alt="" class="responsive-img">
-                </div>
-                <div class="col s4 m4 l4" id="cat">
-                    <img src="https://source.unsplash.com/400x300/?shoes" alt="" class="responsive-img">
-                </div>
-            </div>
-            <div class="row cat-wrapper">
-                <div class="col s4 m4 l4" id="cat">
-                    <img src="https://source.unsplash.com/400x300/?food" alt="" class="responsive-img">
-                </div>
-                <div class="col s4 m4 l4" id="cat">
-                    <img src="https://source.unsplash.com/400x300/?space" alt="" class="responsive-img">
-                </div>
-                <div class="col s4 m4 l4" id="cat">
-                    <img src="https://source.unsplash.com/400x300/?flower" alt="" class="responsive-img">
-                </div>
-            </div>
+            @endfor
         </div>
-        <div class="col s12 m6 l6">
+        <div class="col s12 m6 l6 heading">
             <h3 class="center-align uk-margin-remove-vertical">Heading</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis hic dolor repudiandae dicta doloremque autem esse eos, iste commodi eius totam, velit, sint illo adipisci quia non officia recusandae. Dolore laboriosam doloribus, nemo praesentium corporis, et sint omnis recusandae? At suscipit placeat, consequatur cumque odio vel. Molestias neque quod temporibus.</p>
-            <div class="center-align">
+            <div class="center-align heading-button">
                 <a class="waves-effect waves-light btn-large ">Read more..</a>            
             </div>
         </div>
@@ -214,16 +191,16 @@
             <div class="row insta-row">
                 <div class="col s4 m4 l4 insta-col">
                     <img class="responsive-img" src="https://source.unsplash.com/400x300/?youtube" alt="">
-                   <h6 class="valign-wrapper uk-margin-remove socialtitle">title</h6>
+                 
                   
                 </div>
                 <div class="col s4 m4 l4 insta-col">
                  <img class="responsive-img" src="https://source.unsplash.com/400x300/?youtube" alt="">
-                 <h6 class="valign-wrapper uk-margin-remove socialtitle">title</h6> 
+                
              </div>
              <div class="col s4 m4 l4 insta-col">
                  <img class="responsive-img" src="https://source.unsplash.com/400x300/?youtube " alt=""> 
-                 <h6 class="valign-wrapper uk-margin-remove socialtitle">title</h6>
+               
              </div>
          </div>
          @endfor

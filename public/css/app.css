@@ -10298,30 +10298,38 @@ ul #dropdown-level-3 li a {
   position: relative;
 }
 
-.social .insta-row .socialtitle {
+.cat .cat-wrapper .cat-title {
   position: absolute;
   bottom: 80px;
   padding-left: 95px;
   color: white;
 }
 
-.social .insta-row .insta-col {
+.cat .cat-wrapper .cat-col {
   position: relative;
 }
 
-#product3 .year-dropdown-trigger,
-#product3 .month-dropdown-trigger {
+#search .year-dropdown-trigger,
+#search .month-dropdown-trigger {
   padding-top: 20px;
 }
 
-#product3 .search {
+#search .search {
   color: white;
   background-color: #ffa622;
 }
 
-#product4 .review-readmore,
-#product4 .formsubmit,
-#product4 .imageselection {
+#review .review-readmore,
+#review .formsubmit,
+#review .imageselection {
   background-color: #ffa622;
+}
+
+.page-footer .footer-copyright .footer-icons a i {
+  font-size: 30px;
+}
+
+.heading .heading-button a {
+  background-color: #fcab10;
 }
 

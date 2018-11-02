@@ -63,8 +63,8 @@
 				
 			</div>
 			<div class="col s3 m3 l3 center ">
-				<i class="fab fa-pinterest-p"></i>
-				<span>Pin it</span>
+				<i class="fab fa-instagram"></i>
+				<span>Share</span>
 			</div>
 		</div>
 
@@ -74,13 +74,13 @@
 <!-- tab start -->
 <div class="">
 	<div class="row">
-		<div class="col s12">
-			<ul class="tabs tabs-fixed-width" id="product-tab">
-				<li class="tab col s3"><a href="#overview" class="active"> Overview</a></li>
-				<li class="tab col s3"><a href="#itinerary">Itinerary</a></li>
-				<li class="tab col s3 "><a href="#search">Search</a></li>
-				<li class="tab col s3 "><a href="#review">Review</a></li>
-				<li class="tab col s3 "><a href="#Availablity">Availablity</a></li>
+		<div class="col s12 m12 l12">
+			<ul class="tabs tabs-fixed-width row" id="product-tab">
+				<li class="tab col s3 m3 l3"><a href="#overview" class="active"> Overview</a></li>
+				<li class="tab col s3 m3 l3"><a href="#itinerary">Itinerary</a></li>
+				<li class="tab col s3 m3 l3 "><a href="#search">Search</a></li>
+				<li class="tab col s3  m3 l3"><a href="#review">Review</a></li>
+				<li class="tab col s3m3 l3 "><a href="#Availablity">Availablity</a></li>
 			</ul>
 		</div>
 	</div>
@@ -89,8 +89,9 @@
 <!-- product start  -->
 <div id="overview" class="col s12">
 	<div class="container-fluid uk-padding-small">
-		
-		<table  class="centered responsive-table">
+		<div class="row">
+			<div class="col s12">
+				<table  class="centered responsive-table">
 			<thead>
 				<tr>
 					<th>Start Date</th>
@@ -133,12 +134,16 @@
 				</tr>
 			</tbody>
 		</table>
+				
+			</div>
+		</div>
+		
 	</div>
 </div>
 <div id="itinerary" class="col s12">
 	<div class="container-fluid uk-padding-small">	
 		<div class="row">
-			<div class="col s6">
+			<div class="col s12 m6 l6">
 				<ul class="">
 					<h5 class="uk-margin-remove-top uk-padding-remove-horizontal">Itinerary</h5>
 					<li class="">
@@ -171,7 +176,7 @@
 					</li>
 				</ul>
 			</div>
-			<div class="col s6">
+			<div class="col s12 m6 l6">
 				<div class="row">
 					<div class="col s12">
 						<ul><li><h6>Excluded</h6></li></ul>
@@ -220,6 +225,8 @@
 		</div>
 	</div>
 </div>
+@include('frontend.partials._enquiry')
+
 {{-- search form start --}}
 <div id="search" class="col s12">
 	<div class="container-fluid uk-padding-small">
@@ -273,14 +280,14 @@
 </div>
 {{-- search form end --}}
 {{-- review start --}}
-<div id="review" class="col s12">
+<div id="review" class="col s12 m6 l6">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col s6">
+			<div class="col s12 m6 l6">
 				@for($a=1; $a<=3; $a++)
                 <div class="row">
                     <div class="col s3 m3 l3">
-                        <img src="https://via.placeholder.com/150x150" alt="" class="circle responsive-img">
+                        <img src="https://via.placeholder.com/90x90" alt="" class="circle responsive-img">
                     </div>
                     <div class="col s9 m9 l9">
                         <h6 class="review-title">Trip Name</h6>
@@ -300,7 +307,7 @@
 
 				<a class="waves-effect waves-light btn review-readmore">Read More</a>
 			</div>
-			<div class="col s6">
+			<div class="col s12 m6 l6">
 				<div class="collection">
 					<form action="">
 						<div class="row uk-margin-left uk-padding-small uk-padding-remove-vertical">
@@ -338,6 +345,7 @@
 	      				</div>
 				     	<div class="row uk-margin-left uk-margin-right uk-padding-small uk-padding-remove-vertical uk-padding-remove-top">
 				     	    <div class="file-field input-field col s12 uk-margin-remove-top uk-padding-remove-vertical">
+				     	  
 	      						<div class="btn imageselection">
 	        						<span>Image Upload</span>
 	        						<input type="file" name="image"  accept="image/*">
@@ -374,7 +382,7 @@
 	</div>
 </div>
 <!-- review end -->
-@include('frontend.partials._table');
+@include('frontend.partials._table')
 
 
 @stop

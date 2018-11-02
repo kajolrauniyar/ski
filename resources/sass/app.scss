@@ -650,15 +650,15 @@ ul #dropdown-level-3{
   position:relative;
 }
 //nepalski guideimage
-.social{
-  .insta-row{
-     .socialtitle{
+.cat{
+  .cat-wrapper{
+     .cat-title{
     position: absolute;
     bottom: 80px;
     padding-left:95px;
     color:white;
   }
-  .insta-col{
+  .cat-col{
     position:relative;
   }
   }
@@ -680,4 +680,25 @@ ul #dropdown-level-3{
   .review-readmore,.formsubmit, .imageselection{
     background-color:$secondary-1;
   }
-  
+}
+  //footer social-icons
+
+.page-footer{
+    .footer-copyright{
+        .footer-icons{
+            a{
+                i{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+//home(heading-buttom)
+.heading{
+    .heading-button{
+        a{
+            background-color:$button;
+        }
+    }
+}

@@ -36,11 +36,14 @@
             </div>
           </div>
           <div class="footer-copyright">
-            <div class="container">
+            <div class="container footer-icons">
            
-            <a class="grey-text text-lighten-4 left uk-margin-left" href="#!"><i class="fab fa-facebook"></i></a>
-            <a class="grey-text text-lighten-4 left uk-margin-left" href="#!"><i class="fab fa-twitter"></i></a>
-            <a class="grey-text text-lighten-4 left uk-margin-left" href="#!"><i class="fab fa-instagram"></i></a>
+            <a class="grey-text text-lighten-4 left uk-margin-left icons-fb" href="#!"><i class="fab fa-facebook" ></i></a>
+            <a class="grey-text text-lighten-4 left uk-margin-left" href="#!"><i class="fab fa-twitter" ></i></a>
+            <a class="grey-text text-lighten-4 left uk-margin-left" href="#!"><i class="fab fa-instagram" ></i></a>
+            <a class="grey-text text-lighten-4 left uk-margin-left " href="#!"><i class="fab fa-google-plus-g" ></i></a>
+            <a class="grey-text text-lighten-4 left uk-margin-left" href="#!"><i class="fab fa-youtube" ></i></a>
+            <a class="grey-text text-lighten-4 left uk-margin-left" href="#!"><i class="fab fa-pinterest"  ></i></a>
             <a class="grey-text text-lighten-4 right uk-margin-right" href="#!">   ©  Copyright 2018 Nepal Ski Guides</a>
             </div>
           </div>
