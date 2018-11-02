@@ -29,7 +29,7 @@
                 <ul class="footer-contact">
                     <li><i class="fas fa-phone"></i><a class="grey-text text-lighten-3 " href="#!">0144223344</a></li>
                     <li><i class="fas fa-mobile-alt"></i><a class="grey-text text-lighten-3 " href="#!"> 98511001122</a></li>
-                    <li><i class="fas fa-envelope-open"></i><a class="grey-text text-lighten-3 " href="#!">info@nepalskiguides.com</a></li>
+                    <li><i class="fas fa-envelope-open"></i><a class="grey-text text-lighten-3" href="#!">info@nepalskiguides.com</a></li>
                     <li><i class="fas fa-home"></i><a class="grey-text text-lighten-3 " href="#!">Kathmandu,Baneshwor</a></li>
                 </ul>
               </div>

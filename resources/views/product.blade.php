@@ -72,26 +72,28 @@
 </div>
 <!-- image end -->
 <!-- tab start -->
-<div class="">
-	<div class="row">
-		<div class="col s12 m12 l12">
-			<ul class="tabs tabs-fixed-width row" id="product-tab">
-				<li class="tab col s3 m3 l3"><a href="#overview" class="active"> Overview</a></li>
-				<li class="tab col s3 m3 l3"><a href="#itinerary">Itinerary</a></li>
-				<li class="tab col s3 m3 l3 "><a href="#search">Search</a></li>
-				<li class="tab col s3  m3 l3"><a href="#review">Review</a></li>
-				<li class="tab col s3m3 l3 "><a href="#Availablity">Availablity</a></li>
-			</ul>
-		</div>
+
+<div class="row">
+	<div class="col s12">
+		<ul class="tabs tabs-fixed-width row" id="product-tab">
+			<li class="tab col s2 m2 l2"><a href="#overview" class="active"> Overview</a></li>
+			<li class="tab col s2 m2 l2"><a href="#itinerary">Itinerary</a></li>
+			<li class="tab col s2 m2 l2 "><a href="#search">Search</a></li>
+			<li class="tab col s2 m2 l2"><a href="#review">Review</a></li>
+			<li class="tab col s2 m2 l2 "><a href="#Availablity">Availablity</a></li>
+			<li class="tab col s2 m2 l2 "><a href="#item6">item6</a></li>
+		</ul>
 	</div>
 </div>
+
 <!-- tab end -->
 <!-- product start  -->
+<!-- overview start -->
 <div id="overview" class="col s12">
 	<div class="container-fluid uk-padding-small">
 		<div class="row">
 			<div class="col s12">
-				<table  class="centered responsive-table">
+				<table  class="centered">
 			<thead>
 				<tr>
 					<th>Start Date</th>
@@ -140,6 +142,8 @@
 		
 	</div>
 </div>
+<!-- overview end -->
+<!-- itinerary start -->
 <div id="itinerary" class="col s12">
 	<div class="container-fluid uk-padding-small">	
 		<div class="row">
@@ -219,29 +223,34 @@
 							<li><i class="material-icons left red-text">close</i>Corrupti quisquam, provident distinctio! Voluptates, ipsum.</li>
 						</ul>
 					</div>
+
 				</div>
+					@include('frontend.partials._enquiry')
+
 
 			</div>
 		</div>
 	</div>
 </div>
-@include('frontend.partials._enquiry')
+<!-- itinerary end -->
+
 
 {{-- search form start --}}
-<div id="search" class="col s12">
+
+<div id="search" class="col s12 m6 l6">
 	<div class="container-fluid uk-padding-small">
 		<div class="card">
 			<div class="card-title">
 				<div class="row">
-					<div class="col s6">
+					<div class="col s12 m6 l6">
 						<p class="uk-margin-left">Please Check Available Dates for The Year of:</p>
 						
 					</div>
-					<div class="col s6">
+					<div class="col s12 m6 l6">
 						<div class="row">
-							<div class="col s4">
-								<div class='year-dropdown-trigger' data-target='dropdownyear'>Year</div>
-								<ul id='dropdownyear' class='dropdown-content'>
+							<div class="col s12 m4 l4">
+								<div class='year-dropdown-trigger uk-margin-left' data-target='dropdownyear'>Year</div>
+								<ul id='dropdownyear' class='dropdown-content '>
 									<li><a href="#!">2018</a></li>
 									<li><a href="#!">2017</a></li>
 									<li><a href="#!">2016</a></li>
@@ -249,9 +258,9 @@
 									<li><a href="#!">2014</a></li>
 								</ul>
 							</div>
-							<div class="col s4">
-								<div class='month-dropdown-trigger'  data-target='dropdownmonth'>Month</div>
-								<ul id='dropdownmonth' class='dropdown-content'>
+							<div class="col s12 m4 l4">
+								<div class='month-dropdown-trigger uk-margin-left'  data-target='dropdownmonth'>Month</div>
+								<ul id='dropdownmonth' class="dropdown-content ">
 									<li><a href="#!">Jan</a></li>
 									<li><a href="#!">Feb</a></li>
 									<li><a href="#!">March</a></li>
@@ -266,7 +275,7 @@
 									<li><a href="#!">December</a></li>
 								</ul>
 							</div>
-							<div class="col s4">
+							<div class="col s12 m4 l4">
 								<a class="waves-effect waves-light btn center uk-margin-top uk-margin-left search">search</a>
 							</div>
 						</div>
@@ -278,6 +287,8 @@
 
 	</div>
 </div>
+
+
 {{-- search form end --}}
 {{-- review start --}}
 <div id="review" class="col s12 m6 l6">
@@ -307,7 +318,7 @@
 
 				<a class="waves-effect waves-light btn review-readmore">Read More</a>
 			</div>
-			<div class="col s12 m6 l6">
+			<div class="col s12 m6 l6 ">
 				<div class="collection">
 					<form action="">
 						<div class="row uk-margin-left uk-padding-small uk-padding-remove-vertical">
