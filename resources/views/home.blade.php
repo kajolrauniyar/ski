@@ -137,11 +137,12 @@
             <img class="responsive-img" src="https://source.unsplash.com/800x600/?tesla" alt="">
         </div>
         <div class="col s12 m6 l6">
-            <p class="flow-text uk-padding-large">
+             <h3 class="center-align">Title</h3>
+            <p class="flow-text ">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure dolores recusandae, vitae sapiente culpa aperiam veritatis impedit esse magni dolor.
             </p>
         <div class="show-on-medium-and-down">
-            <div class="tofm-meta-wrapper uk-padding-large uk-margin-remove-vertical">
+            <div class="tofm-meta-wrapper  uk-margin-remove-vertical">
                 <div class="col s12 m4 l4">
                     <div class="col s6 m4 l4">
                         <i class="far fa-calendar-alt"></i>
@@ -175,6 +176,10 @@
                         </span>
                     </div>                 
                 </div>
+                 <div class="center-align heading-button uk-padding-large">
+                <a class="waves-effect waves-light btn-large tofm-meta-wrapper-buttom">button..</a>            
+            </div>
+
             </div>
         </div>
     </div>

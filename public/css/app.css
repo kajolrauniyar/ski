@@ -10037,6 +10037,10 @@ a.middle-indicator-text {
   font-weight: 500;
 }
 
+.tofm-meta-wrapper .tofm-meta-wrapper-buttom {
+  background-color: #fcab10;
+}
+
 #insta-wrapper .insta-row {
   padding: 2px 15px 0px 15px;
   margin-bottom: 12px;
