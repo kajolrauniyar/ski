@@ -1,6 +1,8 @@
-
 <div class="row">
-	<div class="col s12 ">
+	<div class="col s2">
+		
+	</div>
+	<div class="col s8 m8 l8 ">
 		<div class="collection">
 			<form action="">
 				<div class="row uk-margin-left uk-padding-small uk-padding-remove-vertical">
@@ -59,6 +61,9 @@
 			</form>
 		</div>	
 	</div>	
+	<div class="col s2">
+		
+	</div>
 </div>
 
 

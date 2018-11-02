@@ -142,7 +142,7 @@
             </p>
         <div class="show-on-medium-and-down">
             <div class="tofm-meta-wrapper uk-padding-large uk-margin-remove-vertical">
-                <div class="col s4 m4 l4">
+                <div class="col s12 m4 l4">
                     <div class="col s6 m4 l4">
                         <i class="far fa-calendar-alt"></i>
                     </div>
@@ -153,7 +153,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="col s4 m4 l4">
+                <div class="col s12 m4 l4">
                     <div class="col s6 m4 l4">
                         <i class="fas fa-signal"></i>
                     </div>
@@ -164,11 +164,11 @@
                         </span>
                     </div>                
                 </div>
-                <div class="col s4 m4 l4">
-                    <div class="col s4 m4 l4">
+                <div class="col s12 m4 l4">
+                    <div class="col s6 m4 l4">
                         <i class="fas fa-dollar-sign"></i>
                     </div>
-                    <div class="col s8 m8 l8">
+                    <div class="col s6 m8 l8">
                         <p class="uk-margin-remove-vertical dodger-blue-text darken-1">Trip Price</p>
                         <span>
                             USD 1500

@@ -81,7 +81,7 @@
 			<li class="tab col s2 m2 l2 "><a href="#search">Search</a></li>
 			<li class="tab col s2 m2 l2"><a href="#review">Review</a></li>
 			<li class="tab col s2 m2 l2 "><a href="#Availablity">Availablity</a></li>
-			<li class="tab col s2 m2 l2 "><a href="#item6">item6</a></li>
+		
 		</ul>
 	</div>
 </div>
@@ -225,11 +225,12 @@
 					</div>
 
 				</div>
-					@include('frontend.partials._enquiry')
+					
 
 
 			</div>
 		</div>
+		@include('frontend.partials._enquiry')
 	</div>
 </div>
 <!-- itinerary end -->
@@ -249,7 +250,7 @@
 					<div class="col s12 m6 l6">
 						<div class="row">
 							<div class="col s12 m4 l4">
-								<div class='year-dropdown-trigger uk-margin-left' data-target='dropdownyear'>Year</div>
+								<div class='year-dropdown-trigger uk-margin-left' data-target='dropdownyear'>Year<i class=" material-icons">arrow_drop_down</i></div>
 								<ul id='dropdownyear' class='dropdown-content '>
 									<li><a href="#!">2018</a></li>
 									<li><a href="#!">2017</a></li>
@@ -259,7 +260,7 @@
 								</ul>
 							</div>
 							<div class="col s12 m4 l4">
-								<div class='month-dropdown-trigger uk-margin-left'  data-target='dropdownmonth'>Month</div>
+								<div class='month-dropdown-trigger uk-margin-left'  data-target='dropdownmonth'>Month<i class=" material-icons">arrow_drop_down</i></div>
 								<ul id='dropdownmonth' class="dropdown-content ">
 									<li><a href="#!">Jan</a></li>
 									<li><a href="#!">Feb</a></li>
