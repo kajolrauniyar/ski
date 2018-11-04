@@ -2,13 +2,13 @@
 @section('content')
 <!-- image start -->
 <div class="row uk-margin-remove-bottom">
-	<div class="col sm12 m12 l6 uk-padding-remove-horizontal">
+	<div class="col s12 m6 l6 uk-padding-remove-horizontal">
 		<img class="responsive-img" src="https://source.unsplash.com/1024x768/?youtube" alt="">
 	</div>
-	<div class="col sm12 m12 l6  center-align product ">
-		<h3 class="uk-padding product-img-content ">Annapurna Circuit Trek Or Round Trek</h3>
+	<div class="col s12 m6 l6  center-align product ">
+		<h5 class="uk-padding product-img-content ">Annapurna Circuit Trek Or Round Trek</h5>
 		<h6 class="uk-padding uk-padding-remove-vertical"> <i>STARTING FROM USD</i></h6>
-		<h3 class="uk-margin"> <sup>$</sup>1500</h3>
+		<h5 class="uk-margin"> <sup>$</sup>1500</h5>
 		<p>Annapurna rush trek is basically for the travelers who want to just enjoy that includes meeting up new peoples, being social, conversations and get a glimpse of</p>
 		<div class="row uk-margin-remove-bottom">
 			<div class="col s12 m6 l6">
@@ -94,52 +94,50 @@
 		<div class="row">
 			<div class="col s12">
 				<table  class="centered">
-			<thead>
-				<tr>
-					<th>Start Date</th>
-					<th>End Date</th>
-					<th>Price</th>
-					<th>Action</th>
-				</tr>
-			</thead>
+					<thead>
+						<tr>
+							<th>Start Date</th>
+							<th>End Date</th>
+							<th>Price</th>
+							<th>Action</th>
+						</tr>
+					</thead>
 
-			<tbody>
-				<tr>
-					<td>1</td>
-					<td>2</td>
-					<td>3</td>
-					<td>4</td>
-				</tr>
-				<tr>
-					<td>1</td>
-					<td>2</td>
-					<td>3</td>
-					<td>4</td>
-				</tr>
-				<tr>
-					<td>1</td>
-					<td>2</td>
-					<td>3</td>
-					<td>4</td>
-				</tr>
-				<tr>
-					<td>1</td>
-					<td>2</td>
-					<td>3</td>
-					<td>4</td>
-				</tr>
-				<tr>
-					<td>1</td>
-					<td>2</td>
-					<td>3</td>
-					<td>4</td>
-				</tr>
-			</tbody>
-		</table>
-				
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+						</tr>
+					</tbody>
+				</table>	
 			</div>
 		</div>
-		
 	</div>
 </div>
 <!-- overview end -->

@@ -6,10 +6,9 @@
     <img class="item" src="https://source.unsplash.com/1024x512/?corgi" alt="">
     <img class="item" src="https://source.unsplash.com/1024x512/?retriver" alt="">
 </div>
-
 <!-- heading start -->
 <div class="container-fluid">
-    <h2 class="center-align">SPLASH RESPONSIBLE TRAVEL ALL OVER</h2>
+    <h3 class="center-align">SPLASH RESPONSIBLE TRAVEL ALL OVER</h3>
     <h5 class="center-align uk-margin-medium-bottom"><i>Striving to be the Nepal's only most Eco-Friendly Ski Touring Experience !</i></h5>
 </div>
 <!--heading end  -->
@@ -35,7 +34,7 @@
 
 </div>
 </div>
-<div class="container-fluid cat">
+<div class="container-fluid cat uk-margin-top">
     <div class="row ">
         <div class="col s12 m6 l6"> 
             @for($a=1; $a<=3; $a++)
@@ -66,14 +65,40 @@
 
 <!-- Special block start -->
 <div class="container-fluid">
-    <h2 class="center-align">TOP ADVENTURES</h2>
+    <h3 class="center-align">TOP ADVENTURES</h3>
     <h5 class="center-align">Our collection of the most popular adventures in 2018</h5>
     <hr>
 </div>
 <!-- package start -->
-<div class="container-fluid">
-    <div class="row">     
-        @for($i=1; $i<=3; $i++)   
+<section>
+    <div class="container-fluid">
+        <div class="row">     
+            @for($i=1; $i<=3; $i++)   
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://source.unsplash.com/400x300/?shoes">
+                        <div class="featured-price white-text">
+                          <span><sup>USD</sup> 1500</span>
+                      </div>
+                  </div>
+                  <div class="card-content package-meta">
+                    <span class="card-title uk-margin-remove-vertical" id="package-title">Item Title</span>
+                    <div class="unit">                            
+                        <span class="left"><i class="far fa-calendar-alt"></i> 14 Days</span>                      
+                        <span class="rating-wrapper right">
+                            <i class="material-icons review-star">star</i>
+                            <i class="material-icons review-star">star</i>
+                            <i class="material-icons review-star">star</i>
+                            <i class="material-icons review-star">star</i>
+                            <i class="material-icons review-star">star</i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @endfor
+        @for($j=1; $j<=3; $j++)   
         <div class="col s12 m4 l4">
             <div class="card">
                 <div class="card-image">
@@ -94,43 +119,19 @@
                         <i class="material-icons review-star">star</i>
                     </span>
                 </div>
+
+
             </div>
         </div>
     </div>
-    @endfor
-    @for($j=1; $j<=3; $j++)   
-    <div class="col s12 m4 l4">
-        <div class="card">
-            <div class="card-image">
-                <img src="https://source.unsplash.com/400x300/?shoes">
-                <div class="featured-price white-text">
-                  <span><sup>USD</sup> 1500</span>
-              </div>
-          </div>
-          <div class="card-content package-meta">
-            <span class="card-title uk-margin-remove-vertical" id="package-title">Item Title</span>
-            <div class="unit">                            
-                <span class="left"><i class="far fa-calendar-alt"></i> 14 Days</span>                      
-                <span class="rating-wrapper right">
-                    <i class="material-icons review-star">star</i>
-                    <i class="material-icons review-star">star</i>
-                    <i class="material-icons review-star">star</i>
-                    <i class="material-icons review-star">star</i>
-                    <i class="material-icons review-star">star</i>
-                </span>
-            </div>
-
-
-        </div>
+    @endfor  
+    </div>  
     </div>
-</div>
-@endfor  
-</div>  
-</div>
+</section>
 {{-- trip of the month start --}}
 <section class="tofm-wrapper">
     <div class="row center-align">
-        <h2 class="uk-margin-remove-vertical">Trip of the month</h2>
+        <h3 class="uk-margin-remove-vertical">Trip of the month</h3>
     </div>
     <div class="row">
         <div class="col s12 m6 l6 uk-padding-remove-horizontal" id="tofm-img-wrapper">
@@ -141,7 +142,7 @@
             <p class="flow-text ">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure dolores recusandae, vitae sapiente culpa aperiam veritatis impedit esse magni dolor.
             </p>
-        <div class="show-on-medium-and-down">
+        <div class="hide-on-med-only">
             <div class="tofm-meta-wrapper  uk-margin-remove-vertical">
                 <div class="col s12 m4 l4">
                     <div class="col s6 m4 l4">

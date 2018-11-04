@@ -4,7 +4,7 @@
 		$('.sidenav').sidenav({
 			menuWidth: 500,
 		});
-		$('.carousel').carousel({fullWidth: true});
+		
 
 		$('.parallax').parallax();
 		var btn = $('#button');
@@ -67,12 +67,11 @@
 					items:1
 				}
 			}
-		})	
+		});	
 	  	$('.year-dropdown-trigger').dropdown();
   		$('.month-dropdown-trigger').dropdown();
 	  	$('product-review-select').formSelect();
   	  	$('#product-review-textarea').val('');	
-
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 

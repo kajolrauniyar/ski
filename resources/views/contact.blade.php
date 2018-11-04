@@ -7,7 +7,7 @@
 <!-- parallex image end -->
 <!-- title start -->
 <div class="container center">
-	<h2>GET IN TOUCH</h2>
+	<h5>GET IN TOUCH</h5>
 	<p><i>Contact us by email, phone or through our web form below.</i></p>
 </div>
 <!-- title end -->
@@ -15,7 +15,7 @@
 <section>
 	<div class="container">
 		<div class="row">
-			<div class="col">
+			<div class="col s12">
 				<form>
 					<div class="form-field col s12"">
 						<label for="full_name">Full Name</label>

@@ -81,7 +81,6 @@ module.exports = __webpack_require__(2);
 		$('.sidenav').sidenav({
 			menuWidth: 500
 		});
-		$('.carousel').carousel({ fullWidth: true });
 
 		$('.parallax').parallax();
 		var btn = $('#button');

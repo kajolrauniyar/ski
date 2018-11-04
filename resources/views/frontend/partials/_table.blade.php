@@ -1,8 +1,8 @@
-<div id="Availablity" class="col s12">
-	<div class="container">
+<!-- <div id="Availablity" class="col s12">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col s12">
-				<!--table1 start-->
+				table1 start
 				<table class="centered responsive-table">
 	        		<thead>
 	          			<tr>
@@ -49,8 +49,8 @@
 			</div>
 
 		</div>
-		<!--table1 end-->
-		<!--table2 start-->
+		table1 end
+		table2 start
 		<div class="row">
 		<div class="col s12">
 			<table class="centered responsive-table">
@@ -91,4 +91,4 @@
 		</div>	
 		</div>
 	</div>
-</div>
+</div> -->
