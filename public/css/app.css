@@ -10204,7 +10204,7 @@ a.middle-indicator-text {
 }
 
 #mobile-menu {
-  width: 60%;
+  width: 80%;
 }
 
 #mobile-menu li a {
@@ -10335,5 +10335,31 @@ ul #dropdown-level-3 li a {
 
 .heading .heading-button a {
   background-color: #fcab10;
+}
+
+.offer-title {
+  position: absolute;
+  bottom: 1px;
+  left: 10px;
+  color: white;
+}
+
+.parallax {
+  position: relative;
+}
+
+.offer-title2 {
+  position: absolute;
+  bottom: 100px;
+  left: 10px;
+  color: white;
+}
+
+.parallax {
+  position: relative;
+}
+
+.itinerary-title {
+  color: #00B1B3;
 }
 

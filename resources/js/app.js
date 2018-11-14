@@ -2,7 +2,7 @@
 	$(function(){
 
 		$('.sidenav').sidenav({
-			menuWidth: 500,
+			menuWidth: 1500,
 		});
 		
 

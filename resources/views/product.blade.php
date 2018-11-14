@@ -3,7 +3,7 @@
 <!-- image start -->
 <div class="row uk-margin-remove-bottom">
 	<div class="col s12 m6 l6 uk-padding-remove-horizontal">
-		<img class="responsive-img" src="https://source.unsplash.com/1024x768/?youtube" alt="">
+		<img class="responsive-img" src="https://source.unsplash.com/960x640/?youtube" alt="">
 	</div>
 	<div class="col s12 m6 l6  center-align product ">
 		<h5 class="uk-padding product-img-content ">Annapurna Circuit Trek Or Round Trek</h5>
@@ -76,7 +76,7 @@
 <div class="row">
 	<div class="col s12">
 		<ul class="tabs tabs-fixed-width row" id="product-tab">
-			<li class="tab col s2 m2 l2"><a href="#overview" class="active"> Overview</a></li>
+			<li class="tab col s2 m2 l2"><a href="#overview" class="active"><i class="fas fa-eye"></i><span>Overview</span> </a></li>
 			<li class="tab col s2 m2 l2"><a href="#itinerary">Itinerary</a></li>
 			<li class="tab col s2 m2 l2 "><a href="#search">Search</a></li>
 			<li class="tab col s2 m2 l2"><a href="#review">Review</a></li>
@@ -285,7 +285,12 @@
 		</div>
 
 	</div>
+
+ 		@include ('frontend.partials._itinerary')
+
+ 
 </div>
+
 
 
 {{-- search form end --}}

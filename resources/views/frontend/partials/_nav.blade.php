@@ -57,27 +57,36 @@
     <li class="no-padding">
         <ul class="collapsible collapsible-accordion">
             <li class="side-nav-dropdown">
-                <a class="collapsible-header">Level 1<i class="material-icons">arrow_drop_down</i></a>
+                <a class="collapsible-header">Trekking<i class="material-icons">arrow_drop_down</i></a>
                 <div class="collapsible-body">
                     <ul id="dropdown-level-1">
                         <li>
                             <ul class="collapsible collapsible-accordion">
                                 <li class="side-nav-dropdown">
-                                    <a class="collapsible-header">Level 2<i class="material-icons">arrow_drop_down</i></a>
+                                    <a class="collapsible-header">Everest Region<i class="material-icons">arrow_drop_down</i></a>
                                     <div class="collapsible-body">
                                         <ul id="dropdown-level-3">
-                                            <li><a href="#!">First</a></li>
-                                            <li><a href="#!">Second</a></li>
-                                            <li><a href="#!">Third</a></li>
-                                            <li><a href="#!">Fourth</a></li>
+                                            <li><a href="#!">Everest Base Camp Trek</a></li>
+                                            <li><a href="#!">Everest View Trek</a></li>
+                                            <li><a href="#!">Everest Base Camp</a></li>
+                                            <li><a href="#!">Everest Base Camp Via</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="side-nav-dropdown">
+                                    <a class="collapsible-header">Anapurna Region<i class="material-icons">arrow_drop_down</i></a>
+                                    <div class="collapsible-body">
+                                        <ul id="dropdown-level-3">
+                                            <li><a href="#!">Anapurna Base Camp Trek</a></li>
+                                            <li><a href="#!">Anapurna View Trek</a></li>
+                                            <li><a href="#!">Anapurna Base Camp</a></li>
+                                            <li><a href="#!">Anapurna Base Camp Via</a></li>
                                         </ul>
                                     </div>
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="#!">Second</a></li>
-                        <li><a href="#!">Third</a></li>
-                        <li><a href="#!">Fourth</a></li>
+                
                     </ul>
                 </div>
             </li>

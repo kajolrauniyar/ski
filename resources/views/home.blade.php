@@ -36,18 +36,13 @@
 </div>
 <div class="container-fluid cat uk-margin-top">
     <div class="row ">
-        <div class="col s12 m6 l6"> 
-            @for($a=1; $a<=3; $a++)
-            <div class="row cat-wrapper">
-                @for($b=1; $b<=3; $b++)
-                <div class="col s4 m4 l4 cat-col" id="cat">
-                    <img src="https://source.unsplash.com/400x300/?food" alt="" class="responsive-img">
-                      <h6 class="valign-wrapper uk-margin-remove cat-title">title</h6>
-                </div>
-                @endfor
+        <div class="col s12 m6 l6 " id="youtube-wrapper">
+            <h3 class="center-align uk-margin-remove-vertical">Nepal Ski Guide Stories</h3>
+            <div class="video-container responsive-video">
+                <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
-            @endfor
         </div>
+      
         <div class="col s12 m6 l6 heading">
             <h3 class="center-align uk-margin-remove-vertical">Heading</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis hic dolor repudiandae dicta doloremque autem esse eos, iste commodi eius totam, velit, sint illo adipisci quia non officia recusandae. Dolore laboriosam doloribus, nemo praesentium corporis, et sint omnis recusandae? At suscipit placeat, consequatur cumque odio vel. Molestias neque quod temporibus.</p>
@@ -60,8 +55,13 @@
 <!-- content end -->
 <!-- Special block start -->
 <div class="parallax-container offer">
-    <div class="parallax"><img src="https://source.unsplash.com/1200x450/?nature"></div>
+    <div class="parallax"><img src="https://source.unsplash.com/1200x450/?nature">
+        <h5 class="center-align offer-title hide-on-med-and-up">10-20 % of our profit goes to the fundraising campaign led by NFSS (Ski and Snowboarding Foundation Nepal) for aiding and supporting the trend of ski touring and snowboarding in Nepal.</h5>
+          <h4 class="center-align offer-title2 hide-on-small-only">10-20 % of our profit goes to the fundraising campaign led by NFSS (Ski and Snowboarding Foundation Nepal) for aiding and supporting the trend of ski touring and snowboarding in Nepal.</h4>
+    </div>
 </div>
+
+
 
 <!-- Special block start -->
 <div class="container-fluid">
@@ -214,7 +214,10 @@
      </div>
      <div class="col s12 m6 l6 " id="youtube-wrapper">
         <h3 class="center-align">Nepal Ski Guide Stories</h3>
-        <img class="responsive-img" src="https://source.unsplash.com/1100x825/?youtube" alt="">
+      <div class="video-container responsive-video">
+        <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+
     </div>
 </div>
 </section>

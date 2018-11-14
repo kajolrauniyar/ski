@@ -561,7 +561,7 @@ a.middle-indicator-text{
   width: 92% !important;
 }
 #mobile-menu{
-  width: 60%;
+  width: 80%;
   li{
     a{
       padding: 0px 16px 0px 16px; 
@@ -709,4 +709,30 @@ ul #dropdown-level-3{
             background-color:$button;
         }
     }
+}
+//offer start
+.offer-title  {
+ 
+ position: absolute;
+  bottom: 1px;
+  left: 10px;
+  color:white;
+}
+.parallax{
+  position:relative;
+}
+.offer-title2  {
+ 
+ position: absolute;
+  bottom: 100px;
+  left: 10px;
+  color:white;
+}
+.parallax{
+  position:relative;
+}
+//offer end
+
+.itinerary-title{
+  color:$secondary-2;
 }
