@@ -71,16 +71,16 @@
 	</div>
 </div>
 <!-- image end -->
-<!-- tab start -->
+<!-- tab start --> 
 
 <div class="row">
 	<div class="col s12">
 		<ul class="tabs tabs-fixed-width row" id="product-tab">
-			<li class="tab col s2 m2 l2"><a href="#overview" class="active"><i class="fas fa-eye"></i><span>Overview</span> </a></li>
-			<li class="tab col s2 m2 l2"><a href="#itinerary">Itinerary</a></li>
-			<li class="tab col s2 m2 l2 "><a href="#search">Search</a></li>
-			<li class="tab col s2 m2 l2"><a href="#review">Review</a></li>
-			<li class="tab col s2 m2 l2 "><a href="#Availablity">Availablity</a></li>
+			<li class="tab col s2 m2 l2"><a href="#overview" class="active"><i class="fas fa-eye"></i><span class="hide-on-med-and-down uk-margin-left">Overview</span> </a></li>
+			<li class="tab col s2 m2 l2"><a href="#itinerary"><i class="far fa-map"></i><span class="hide-on-med-and-down uk-margin-left">Itinerary</span></a></li>
+			<li class="tab col s2 m2 l2 "><a href="#search"><i class="fas fa-search"></i><span class="hide-on-med-and-down uk-margin-left">Search</span></a></li>
+			<li class="tab col s2 m2 l2"><a href="#review"><i class="far fa-comments"></i><span class="hide-on-med-and-down uk-margin-left">Review</span></a></li>
+			<li class="tab col s2 m2 l2 "><a href="#gallary"><i class="far fa-clock"></i><span class="hide-on-med-and-down uk-margin-left">Gallary</span></a></li>
 		
 		</ul>
 	</div>
@@ -283,12 +283,9 @@
 				</div>
 			</div>
 		</div>
+			@include ('frontend.partials._itinerary')
 
 	</div>
-
- 		@include ('frontend.partials._itinerary')
-
- 
 </div>
 
 
@@ -397,7 +394,68 @@
 	</div>
 </div>
 <!-- review end -->
-@include('frontend.partials._table')
+<!-- gallary start -->
+<div id="gallary" class="col s12 m6 l6">
+	<div class="container-fluid">
+		<div class="row">
+		
+			<div class="col s12 m6 l6">
+				<div class="card">
+				    <div class="card-image">
+				      <img class="activator" src="{{asset('img/legal.jpg')}}">
+				    </div>
+			       	<div class="card-action">
+            			<h6>COMPANY REGISTRATION</h6>
+        			</div>
+			  	</div>
+			</div>
+			<div class="col s12 m6 l6">
+				<div class="card">
+				    <div class="card-image">
+				      <img class="activator" src="{{asset('img/legal.jpg')}}">
+				    </div>
+			       	<div class="card-action">
+            			<h6>COMPANY REGISTRATION</h6>
+        			</div>
+			  	</div>
+			</div>
+			<div class="col s12 m6 l6">
+				<div class="card">
+				    <div class="card-image">
+				      <img class="activator" src="{{asset('img/legal.jpg')}}">
+				    </div>
+			       	<div class="card-action">
+            			<h6>COMPANY REGISTRATION</h6>
+        			</div>
+			  	</div>
+			</div>
+			<div class="col s12 m6 l6">
+				<div class="card">
+				    <div class="card-image">
+				      <img class="activator" src="{{asset('img/legal.jpg')}}">
+				    </div>
+			       	<div class="card-action">
+            			<h6>COMPANY REGISTRATION</h6>
+        			</div>
+			  	</div>
+			</div>
+			<div class="col s12 m6 l6">
+				<div class="card">
+				    <div class="card-image">
+				      <img class="activator" src="{{asset('img/legal.jpg')}}">
+				    </div>
+			       	<div class="card-action">
+            			<h6>COMPANY REGISTRATION</h6>
+        			</div>
+			  	</div>
+			</div>
+		
+			
+		</div>
+	</div>
+</div>
+
+<!-- gallary end -->
 
 
 @stop
