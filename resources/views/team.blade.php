@@ -21,7 +21,7 @@
 <!-- content end -->
 
 <!-- Our Team START -->
-<div id="team" class="col s12">
+<!-- <div id="team" class="col s12">
 	<div class="container uk-padding">
 		<h5 class="center-align">Our Team</h5>
 		@for ($i = 1; $i <= 5; $i++)
@@ -34,6 +34,33 @@
 				<p class="review-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 			</div>
+		</div>
+		@endfor
+	</div>
+</div> -->
+<!-- team end -->
+<div class="container">
+	<div class="row uk-padding uk-padding-bottom">
+		<h5 class="center-align">Our Team</h5>
+		@for($k=1; $k<=3; $k++)
+		<div class="col s12 m4 l4 ">
+      		<div class="card">
+        		<div class="card-image">
+          			<img src="https://source.unsplash.com/800x600/?noodles">
+          			
+        		</div>
+        		<div class="card-content">
+        			<span class="card-title center-align">Name</span>
+        			<p class="center-align">Designation</p>
+        		</div>
+        		<div class="card-action center-align">
+          			<span class="" style="font-size: 24px;">
+          				<i class="fab fa-facebook"></i>
+          				<i class="fab fa-instagram"></i>
+          				<i class="fab fa-linkedin"></i>
+          			</span>
+        		</div>
+      		</div>  
 		</div>
 		@endfor
 	</div>

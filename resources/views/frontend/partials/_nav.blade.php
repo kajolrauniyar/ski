@@ -5,7 +5,7 @@
         <div class="container-fluid">        
           <a href="/" class="brand-logo">Logo</a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="/">Home</a></li>
+            <li ><a href="/">Home</a></li>
             <li><a href="/product">Product</a></li>
             <li><a href="/team">Team</a></li>
             <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown 1<i class="material-icons right">arrow_drop_down</i></a>
